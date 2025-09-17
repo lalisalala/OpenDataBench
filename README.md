@@ -7,9 +7,11 @@ It provides curated evaluation datasets, baseline results, evaluation scripts, a
 
 ## ✨ Key Features
 
-- **Multilingual benchmark datasets**  
-  - **London Datastore (LDS)** — English, municipal-scale.  
-  - **GovData.de** — German, national-scale.  
+**Multilingual benchmark datasets**  
+  - **London Datastore (LDS)** — 68 English queries (municipal-scale).  
+  - **GovData.de** — 50 German queries (national-scale).  
+  - All queries come with **human-annotated ground truth** datasets and **graded relevance scores (0–4)**.  
+
 
 ## Baselines
 
