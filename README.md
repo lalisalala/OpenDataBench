@@ -73,25 +73,25 @@ Clone the repo and install dependencies:
 git clone https://github.com/your-username/OpenDataBench.git
 cd OpenDataBench
 pip install -r requirements.txt
-
+```
 Run evaluation for GovData.de:
-
+```bash
 cd scripts
 python compare_baseline.py
 python metrics_dashboard.py
-
+```
 
 Switch to London Datastore (LDS) by editing the DATASET variable in the scripts:
-
+```bash
 DATASET = "LDS"
-
+```
 
 Outputs:
-
+```bash
 Baseline JSONs → baselines/{DATASET}/
 
 Figures → docs/figures/{DATASET}/
-
+```
 📖 Documentation
 
 Methodology
