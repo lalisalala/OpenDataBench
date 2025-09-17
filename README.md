@@ -40,6 +40,7 @@ OpenDataBench/
 ├── data/ # Evaluation datasets (GovData, LDS)
 │ ├── evaluation_dataset_GOV.json
 │ ├── evaluation_dataset_LDS.json
+│ └── README.md
 │
 ├── results/ # Raw system outputs (LLMs and portals)
 │ ├── GOV/
@@ -60,7 +61,8 @@ OpenDataBench/
 │ ├── GOV/
 │ └── LDS/
 │
-└── README.md # (this file)
+├── requirements.txt # Python dependencies
+└── README.md # Main repository overview
 ```
 
 ---
@@ -107,3 +109,14 @@ Evaluation metrics and hallucination comparisons are automatically generated in 
 📜 License
 
 This project is released under the MIT License.
+
+
+## 🔮 Limitations & Future Work
+
+- **Single-turn focus**:  
+  The current benchmark only evaluates **first-turn queries** (single queries).  
+  This allows us to standardize evaluation and ground truth, but it does not yet capture multi-turn interactions.  
+
+- **Planned extensions**:  
+  1. **Larger query set** — expanding the number and diversity of queries across domains.  
+  2. **Multi-turn conversations** — extending the benchmark to support follow-up queries and conversational dataset discovery.  
