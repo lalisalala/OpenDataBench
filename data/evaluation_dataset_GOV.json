@@ -1,0 +1,2994 @@
+[
+    {
+        "conversation_id": "Property Prices #1",
+        "turns": [
+            {
+                "user": "Ich suche den Häuserpreisindex von Deutschland",
+                "bot": null,
+                "eval": {
+                    "type": "Dataset Request",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Häuserpreisindex: Deutschland, Quartale",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Häuserpreisindex, Preisindex für Bauland: Deutschland,Jahre",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Preisindizes für selbst genutztes Wohneigentum: Deutschland,Jahre",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Preisindizes für selbst genutztes Wohneigentum: Deutschland,Quartale",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Preisindex für Einfamilienfertighäuser ohne Keller:Deutschland, Berichtsmonat im Quartal",
+                            "relevance": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Where is this dataset hosted? Can you provide a download link?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/average-house-prices",
+                        "https://data.london.gov.uk/dataset/ratio-house-prices-earnings-borough",
+                        "https://data.london.gov.uk/dataset/uk-house-price-index",
+                        "https://data.london.gov.uk/dataset/house-price-per-square-metre-in-england-and-wales",
+                        "https://data.london.gov.uk/dataset/monthly-mix-adjusted-average-house-prices-london"
+                    ]
+                }
+            },
+            {
+                "user": "Does this dataset include additional details such as property types (flats, houses, etc.)?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Property Prices #2",
+        "turns": [
+            {
+                "user": "Wie haben sich die Häuserpreise in Deutschland geändert?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Häuserpreisindex: Deutschland, Quartale",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Häuserpreisindex, Preisindex für Bauland: Deutschland,Jahre",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Kauffälle, Veräußerte Fläche, Kaufsumme, DurchschnittlicherKaufwert für Bauland: Deutschland, Jahre,Gemeindegrößenklassen, Grundstücksgrößenklassen",
+                            "relevance": 3
+                        },
+                        {
+                            "dataset_title": "Kauffälle, Veräußerte Fläche, Kaufsumme, DurchschnittlicherKaufwert für Bauland: Deutschland, Jahre,Gemeindegrößenklassen, Preisklassen",
+                            "relevance": 3
+                        },
+                        {
+                            "dataset_title": "Häuserpreisindex, Preisindex für Bauland nach Jahren",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Can you provide direct links to download these datasets?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/average-house-prices",
+                        "https://data.london.gov.uk/dataset/ratio-house-prices-earnings-borough",
+                        "https://data.london.gov.uk/dataset/uk-house-price-index",
+                        "https://data.london.gov.uk/dataset/house-price-per-square-metre-in-england-and-wales",
+                        "https://data.london.gov.uk/dataset/monthly-mix-adjusted-average-house-prices-london"
+                    ]
+                }
+            },
+            {
+                "user": "Are these datasets updated regularly, and do they include projections for future trends?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Education #1",
+        "turns": [
+            {
+                "user": "Hast du den Datensatz über die Studierenden in Deutschland und ihre Merkmale?",
+                "bot": null,
+                "eval": {
+                    "type": "Dataset Request",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Studierende: Deutschland, Semester, Nationalität,Geschlecht",
+                            "relevance":  4
+                        },
+                        {
+                            "dataset_title": "Studierende: Deutschland, Semester, Nationalität,Geschlecht, Studienfach",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Studierende: Deutschland, Semester, Nationalität,Geschlecht, Hochschulen",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Studierende nach Hochschularten und Hochschulorten",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Strukturdaten für Deutschland",
+                            "relevance": 2
+                        },
+                        {
+                            "dataset_title": "Studierende nach Geschlecht, Land des Studienortes und Land des Erwerbs der Hochschulzugangsberechtigung",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Studierende nach Hochschularten und Staatsangehörigkeit",
+                            "relevance":4
+                        },
+                        {
+                            "dataset_title": "Studierende: Bundesländer, Semester, Nationalität, Geschlecht, Studienfach",
+                            "relevance": 3
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "This dataset only covers data from 2000 onward. I need historical records from 1946. Can you refine your search?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a link to where I can download the full dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/hesa-student-records",
+                        "https://data.london.gov.uk/dataset/graduate-outcomes-in-london"
+                    ]
+                }
+            },
+            {
+                "user": "What licensing restrictions apply to this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: Public Domain",
+                        "Dataset 2: UK Open Government License"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Education #2",
+        "turns": [
+            {
+                "user": "Gibt es Datensätze die die Geschlechterverteilung auf Universitäten in Deutschland über einen langen Zeitraum beobachten?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Studierende insgesamt und ausländische Studierende nach Hochschularten, Fächergruppen und Geschlecht",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Studierende: Deutschland, Semester, Nationalität,Geschlecht",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Studierende: Bundesländer, Semester, Nationalität,Geschlecht",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Studierende nach Hochschularten, Ländern und Geschlecht",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Amtliche Schulstatistik, Studierenden- und Prüfungsstatistik",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Gender Datenreport Berlin 2023 – Hochschule",
+                            "relevance": 3
+                        },
+                        {
+                            "dataset_title": "Studierende nach Geschlecht, Land des Studienortes und Land des Erwerbs der Hochschulzugangsberechtigung",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Studierende sowie Studienanfängerinnen und Studienanfänger im 1. Hochschulsemester nach Fächergruppen, Hochschularten und Geschlecht",
+                            "relevance": 3
+                        },
+                        {
+                            "dataset_title":  "Anteil von Männern und Frauen an verschiedenen Status- und Abschlussgruppen im Hochschulbereich",
+                            "relevance": 3
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "What sources provide this data?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide direct links to datasets that track student gender ratios at UK universities?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Do these datasets also include dropout rates and retention statistics?",
+                "bot": null,
+                "eval": {
+                    "type": "additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Homelessness #1",
+        "turns": [
+            {
+                "user": "Hast du einen Datensatz der Obdachlosigkeit verfolgt?",
+                "bot": null,
+                "eval": {
+                    "type": "Dataset Request",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Obdachlose Personen insgesamt nach Grund der Obdachlosigkeit- Gemeinden - Stichtag",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Obdachlose Personen insgesamt nach Grund der Obdachlosigkeit (bis 2006)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Obdachlose Personen nach der Art der Unterkünfte und Dauer der Unterbringung (bis 2006)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Obdachlose Haushalte nach Haushalttyp - Gemeinden - Stichtag",
+                            "relevance": 4
+                        }
+                
+                    ]
+                }
+            },
+            {
+                "user": "This dataset is missing data for the years 2020–2023. Can you refine your search to find a more up-to-date dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Housing in London - The evidence base for the Mayor's Housing Strategy",
+                            "relevance": 2
+                        },
+                        {
+                            "dataset_title": "Rough Sleeping in London",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Can you provide a link to the original dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/housing-london",
+                        "https://data.london.gov.uk/dataset/chain-reports"
+                    ]
+                }
+            },
+            {
+                "user": "What is the definition of ‘homeless’ used in this dataset? Could differences in definitions across countries skew the comparison?",
+                "bot": null,
+                "eval": {
+                    "type": "additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Homelessness #2",
+        "turns": [
+            {
+                "user": "Hast du ein Datenset das die Obdachlosigkeit Trends zeigt?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Obdachlose Personen insgesamt nach Grund der Obdachlosigkeit- Gemeinden - Stichtag",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Obdachlose Personen insgesamt nach Grund der Obdachlosigkeit (bis 2006)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Obdachlose Personen nach der Art der Unterkünfte und Dauer der Unterbringung (bis 2006)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Obdachlose Haushalte nach Haushalttyp - Gemeinden - Stichtag",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Untergebrachte wohnungslose Personen: Deutschland, Stichtag, Nationalität, Geschlecht, Altersgruppen",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Can you compare the homelessness trends between London, Manchester, and Birmingham?",
+                "bot": null,
+                "eval": {
+                    "type": "additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "This dataset only includes data from London. I need a dataset that includes multiple cities. Can you refine your search?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Where can I find government reports or open data portals with nationwide homelessness statistics?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "What is the definition of ‘homeless’ used in this dataset? Does it include rough sleepers, temporary housing, and hidden homelessness?",
+                "bot": null,
+                "eval": {
+                    "type": "additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Tree Canopy Cover #1",
+        "turns": [
+            {
+                "user": "Gibt es Datensätze dazu wie grün Deutschland ist?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Ökologische Grundeinheiten Deutschlands",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Baumbestand in den Liegenschaften der Grün Berlin GmbH (Anlagenbäume)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Vegetationsgebiete",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Digitaler Grünplan / Kataster der öffentlichen Grünanlagen",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Naturparke Deutschland",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Fläche: Deutschland, Jahre, Ökosysteme",
+                            "relevance": 4
+                        }
+                        
+                    ]
+                }
+            },
+            {
+                "user": "What license does this dataset have?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional dataset information",
+                    "ground_truth_ld": [
+                        "Dataset 1: Not Open",
+                        "Dataset 2: UK Open Government Licence",
+                        "Dataset 3: Attribution Share-Alike License Creative Commons",
+                        "Dataset 4: Not Open"
+                    ]
+                }
+            },
+            {
+                "user": "Do you have a source for this additional information? ",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/canopy-cover-2024",
+                        "https://data.london.gov.uk/dataset/tree-canopy-cover-prioritisation-tool",
+                        "https://data.london.gov.uk/dataset/curio-canopy",
+                        "https://data.london.gov.uk/dataset/green-cover-2024"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Tree Canopy Cover #2",
+        "turns": [
+            {
+                "user": "Wie grün ist Deutschland?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Ökologische Grundeinheiten Deutschlands",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Baumbestand in den Liegenschaften der Grün Berlin GmbH (Anlagenbäume)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Vegetationsgebiete",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Digitaler Grünplan / Kataster der öffentlichen Grünanlagen",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Naturparke Deutschland",
+                            "relevance": 4
+                        }
+                        
+                    ]
+                }
+            },
+            {
+                "user": "This dataset is outdated. Is there a more recent dataset, ideally from 2022 or 2023?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can I compare this dataset to other cities?",
+                "bot": null,
+                "eval": {
+                    "type": "Further Context/Advice Request",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Who maintains this dataset? Is it collected by satellites, aerial surveys, or local councils?",
+                "bot": null,
+                "eval": {
+                    "type": "Further Context/Advice Request",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a link to the dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/canopy-cover-2024",
+                        "https://data.london.gov.uk/dataset/tree-canopy-cover-prioritisation-tool",
+                        "https://data.london.gov.uk/dataset/green-cover-2024"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Rainfall #1",
+        "turns": [
+            {
+                "user": "Hast du einen Datensatz über die Niederschlagsrate in Deutschland?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Raster der Tagessumme des Niederschlags in mm für Deutschland - HYRAS-DE-PRE",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Raster der Niederschlagssumme in mm für Deutschland - HYRAS-DE-PR",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Raster der Monatssumme des Niederschlags in mm für Deutschland - HYRAS-DE-PRE",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Raster der Niederschlagssumme in mm für Deutschland - HYRAS-DE-PR v6-1",
+                            "relevance": 4
+                        },
+                        {   
+                            "dataset_title": "5-minütige Stationsmessungen des Niederschlages für Deutschland",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "10-minütige Stationsmessungen des Niederschlag-gefallen-Indikators für Deutschland",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Raster der mittleren vieljährigen Summe des Niederschlags in mm für Deutschland - HYRAS-DE-PRE",
+                            "relevance": 4
+                        }
+
+                    ]
+                }
+            },
+            {
+                "user": "Which of these datasets provides high-resolution rainfall data at areal level?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Daily Areal Rainfall Calculations",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Does this dataset identify the rainiest area in London?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/daily-areal-rainfall"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Population Trends #1",
+        "turns": [
+            {
+                "user": "Ich suche ein Datensatz der die Bevölkerungsentwicklung in Deutschland verfolgt.",
+                "bot": null,
+                "eval": {
+                    "type": "Dataset Request",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Bevölkerung in Deutschland nach Alter und Geschlecht",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Bevölkerung: Deutschland, Jahre (bis 2019), Geschlecht,Krankenkassen",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Durchschnittliche Bevölkerung: Deutschland, Jahre,Nationalität, Geschlecht",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Bevölkerungsstand in Deutschland",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Vorausberechneter Bevölkerungsstand: Deutschland, Stichtag,Varianten der Bevölkerungsvorausberechnung, Geschlecht,Altersjahre",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Bevölkerung: Deutschland, Stichtag, Altersjahre,Nationalität/Geschlecht/Familienstand",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Durchschnittliche Bevölkerung: Deutschland, Jahre,Nationalität, Geschlecht, Altersjahre",
+                            "relevance":4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Does this dataset break population trends down by age group?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can I have a link to this dataset? ",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/londons-population",
+                        "https://data.london.gov.uk/dataset/trend-based-population-projections"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Population Trends #2",
+        "turns": [
+            {
+                "user": "Wie hat sich Deutschland's Bevölkerung entwickelt über die Jahre?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Bevölkerung: Deutschland, Stichtag, Altersjahre",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Bevölkerung: Deutschland, Stichtag, Geschlecht,Altersgruppen, Staatsangehörigkeit",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Vorausberechneter Bevölkerungsstand: Deutschland, Stichtag,Varianten der Bevölkerungsvorausberechnung",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Vorausberechneter Bevölkerungsstand: Deutschland, Stichtag,Varianten der Bevölkerungsvorausberechnung, Geschlecht,Altersjahre",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Bevölkerung: Deutschland, Stichtag, Altersjahre,Nationalität/Geschlecht/Familienstand",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Bevölkerung in Deutschland nach Altersgruppen ab 1871",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Durchschnittliche Bevölkerung: Deutschland, Jahre,Nationalität, Geschlecht, Altersjahre",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Bevölkerungsstand in Deutschland ab 1871",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Which datasets allow for time-series analysis of UK population growth?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "London's population",
+                            "relevance": 3
+                        },
+                        {
+                            "dataset_title": "Trend-based population projections",
+                            "relevance": 3
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Does this dataset provide annual, decadal, or census-based estimates?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: census based estimates",
+                        "Dataset 2: modelled back series of population estimates produced by the GLA"
+                    ]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: not specified",
+                        "Dataset 2: Attribution License"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Traffic #1",
+        "turns": [
+            {
+                "user": "Hast du Datensätze zu Stau und Staubilanz in Schleswig-Holstein? ",
+                "bot": null,
+                "eval": {
+                    "type": "Dataset Request",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Staubilanz Schleswig-Holstein 2023",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Staubilanz Schleswig-Holstein 2021",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Verkehrsdaten für Messquerschnitte und Fahrstreifen (statisch)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Verkehrsdaten für Messquerschnitte und Fahrstreifen (dynamisch)",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "What metric does this dataset use to define congestion? Journey time, average speed, or something else?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Where can I find the official metadata and documentation for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/traffic-flows-borough",
+                        "https://data.london.gov.uk/dataset/tfl-live-traffic-cameras"
+                    ]
+                }
+            },
+            {
+                "user": "What format is this dataset available in?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: xls",
+                        "Dataset 2: html"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Traffic #2",
+        "turns": [
+            {
+                "user": "Wie ist die Verkehrslage auf Autobahnen in Hamburg?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Verkehrslage auf Autobahnen (Schleifen) Hamburg",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Verkehrslage Hamburg",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Verkehrslageprognose Hamburg",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Verkehrsmengen auf Hauptverkehrsstraßen in Hamburg",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Does this dataset differentiate between commuter traffic and freight traffic?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "What method does this dataset use to collect traffic data",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Who maintains this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can I have a link to this dataset? ",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Transport Usage #1",
+        "turns": [
+            {
+                "user": "Gibt es Datensätze die die Barrierefreiheit in Nahverkehr in Baden Württemberg tracken?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Barrierefreiheit an Bahnhöfen (SPNV) und Bushaltestellen (ÖPNV)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title":"Barrierefreiheit an Haltestellen (ÖPNV) Baden-Württemberg",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Gebündelte Daten Behindertenparkplätze Baden-Württemberg",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Barrierefreiheit an Bahnhöfen und Haltepunkten (SPNV) Baden-Württemberg",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Which datasets provide data on step-free access at train stations?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Accessibility of London Underground Stations",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Public Transport Accessibility Levels",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "How frequently is this dataset updated?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: Annually",
+                        "Dataset 2: Ad hoc"
+                    ]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: UK Open Government License",
+                        "Dataset 2: UK Open Government License"
+                    ]
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/accessibility-london-underground-stations",
+                        "https://data.london.gov.uk/dataset/public-transport-accessibility-levels"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Transport Usage #2",
+        "turns": [
+            {
+                "user": "Wie ist der Luftverkehr in Deutschland",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Monatszahlen Flugverkehr",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Starts (Luftverkehr): Deutschland, Monate (bis 2010),Herkunftsflughafen, Zielland",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Unternehmen, Umsatz, Personal, Luftfahrzeuge (Luftverkehr):Deutschland, Jahre",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Luftfahrzeuge (Luftverkehr): Deutschland, Jahre,Luftfahrzeugart",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Umsatz (Luftverkehr): Deutschland, Jahre, Umsatzarten",
+                            "relevance": 4
+                        },
+                        {  
+                            "dataset_title": "Luftfahrtbewegungen, Passagiere an Bord, Fracht und Post anBord: Deutschland, Jahre, Art des Luftverkehrs",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Versand von Gütern (Luftverkehr): Deutschland, Monate(bis 2010), Herkunftsflughafen, Zielland",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Kartenlayer Flugverkehr, 24h-Pegel LDEN",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Luftfahrtbewegungen, Passagiere an Bord, Fracht und Post an Bord (Flight Stage): Deutschland, Monate, Berichtsflughafen,Art der Flugbewegung, Startgewichtsklassen",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Does this dataset differentiate between passenger and cargo flights?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Where can I find the official metadata and documentation for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/flights-and-passengers-london-airports",
+                        "https://data.london.gov.uk/dataset/busiest-airports-by-passenger-traffic",
+                        "https://data.london.gov.uk/dataset/travel-patterns-and-trends-london"
+                    ]
+                }
+            },
+            {
+                "user": "What format is this dataset available in?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: xls",
+                        "Dataset 2: xls",
+                        "Dataset 3: xls",
+                        "html",
+                        "pdf"
+                    ]
+                }
+            },
+            {
+                "user": "Who collects and maintains this dataset, and how frequently is it updated?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: Civil Aviation Authority",
+                        "annually",
+                        "Dataset 2: GLA",
+                        "annually",
+                        "Dataset 3: GLA",
+                        "Ad hoc"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Accidents #1",
+        "turns": [
+            {
+                "user": "Wo finde ich Daten zu Straßenverkehrsunfällen in Berlin?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [{
+                        "dataset_title": "Strassenverkehrsunfälle nach Unfallort in Berlin 2020",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Straßenverkehrsunfälle nach Unfallort in Berlin 2021",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Gesundheitsberichterstattung Berlin: Gesundheitsindikator 3.119 - Zahl der Straßenverkehrsunfälle, in denen Alkohol eine verursachende Rolle gespielt hat, Land, im Zeitvergleich L",
+                        "relevance": 2
+                    },
+                    {
+                        "dataset_title": "Strassenverkehrsunfälle nach Unfallort in Berlin 2018",
+                        "relevance": 3
+                    },
+                    {
+                        "dataset_title": "Verkehrsmeldungen Berlin",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Strassenverkehrsunfälle nach Unfallort in Berlin 2019",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Straßenverkehrsunfälle mit Personenschaden: Bundesländer,Jahre, Straßenklasse, Ortslage",
+                        "relevance": 3
+                    },
+                    {
+                        "dataset_title": "Verkehrsdetektion Berlin",
+                        "relevance": 3
+                    }
+                
+                
+                
+                
+                ]
+                }
+            },
+            {
+                "user": "How frequently is this dataset updated?",
+                "bot": null,
+                "eval": {
+                    "type": "additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Where can I find the link for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Does this dataset provide historical comparisons for past years’ sunlight and rainfall levels?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Accidents #2",
+        "turns": [
+            {
+                "user": "Gibt es Datensätze die Verkehrsunfälle im Raum Bremen verfolgen?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title":"Straßenverkehrsunfälle im Land Bremen",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Which of these datasets provide detailed breakdowns on sunshine duration and rainfall patterns?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Does this dataset provide localized weather data for different UK regions?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Air Quality #1",
+        "turns": [
+            {
+                "user": "Kannst du mir Datensätze zeigen die die Luftqualität tracken?",
+                "bot": null,
+                "eval": {
+                    "type": "dataset Request",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Luftqualitätsdaten (Datenstrom G) - Erreichung der Umweltziele 2017 (Datensatz)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Luftqualitätsdaten (Datenstrom G) - Erreichung der Umweltziele 2014 (Datensatz)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Luftqualitätsdaten (Datenstrom G) - Erreichung der Umweltziele 2016 (Datensatz)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Luftqualitätsdaten (Datenstrom G) - Erreichung der Umweltziele 2018",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Luftqualitätsdaten (Datenstrom G) – Erreichung der Umweltziele 2021 (Datensatz)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Kontinuierliches Luftqualitätsüberwachungsmessnetz (LUQS, Messwerte nach Komponenten)",
+                            "relevance": 3
+                        },
+                        {
+                            "dataset_title": "Langjährige Entwicklung der Luftqualität - Berliner Luftgütemessnetz - Standorte und Messdaten (Umweltatlas)",
+                            "relevance": 3
+                        }
+
+                    ]
+                }
+            },
+            {
+                "user": "Does this dataset include specific pollutants such as NO₂, PM10, and PM2.5?",
+                "bot": null,
+                "eval": {
+                    "type": "additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: Nitric Oxide",
+                        "Nitrogen Dioxide",
+                        "Oxides of Nitrogen",
+                        "Ozone",
+                        "Particulate Matter (PM10 and PM2.5)",
+                        "and Sulphur Dioxide",
+                        "Dataset 2: NO2",
+                        "PM10 and PM2.5",
+                        "Dataset 3: NO2",
+                        "Dataset 4: NOx",
+                        "PM10",
+                        "PM2.5 and CO2",
+                        "Dataset 5: No"
+                    ]
+                }
+            },
+            {
+                "user": "Where can I find the official metadata and documentation for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/london-average-air-quality-levels",
+                        "https://data.london.gov.uk/dataset/analysing-air-pollution-exposure-in-london",
+                        "https://data.london.gov.uk/dataset/air-quality-monitoring-diffusion-tube-results",
+                        "https://data.london.gov.uk/dataset/london-atmospheric-emissions-inventory--laei--2019",
+                        "https://data.london.gov.uk/dataset/pm2-5-map-and-exposure-data"
+                    ]
+                }
+            },
+            {
+                "user": "What format is this dataset available in?",
+                "bot": null,
+                "eval": {
+                    "type": "additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: xls",
+                        "csv",
+                        "Dataset 2: xls",
+                        "pdf",
+                        "Dataset 3: xls",
+                        "Dataset 4: pdf",
+                        "zip xls",
+                        "Dataset 5: pdf",
+                        "csv"
+                    ]
+                }
+            },
+            {
+                "user": "Who collects and maintains this dataset, and how frequently is it updated?",
+                "bot": null,
+                "eval": {
+                    "type": "additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: GLA",
+                        "monthly",
+                        "Dataset 2: GLA",
+                        "ad hoc",
+                        "Dataset 3: Air Quality team",
+                        "annually",
+                        "Dataset 4: GLA and TFL Air Quality",
+                        "one off",
+                        "Dataset 5: Rosalind O’Driscoll",
+                        "one off"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Air Quality #2",
+        "turns": [
+            {
+                "user": "Gibt es Datensätze die die Luftqualität in Deutschland messen über einen längeren Zeitraum?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Luftqualitätsdaten (Datenstrom E2a) - Unvalidierte Einzelwerte und Monatswerte (Datensatz)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Luftqualitätsdaten (Datenstrom G) - Erreichung der Umweltziele 2015 (Datensatz)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Luftqualitätsdaten (Datenstrom G) - Erreichung der Umweltziele 2013 (Datensatz)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Luftqualitätsdaten (Datenstrom G) - Erreichung der Umweltziele 2016 (Datensatz)",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Which of these datasets include air quality forecasts rather than just historical data?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "London Atmospheric Emissions Inventory (LAEI) 2019",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Does this dataset track seasonal fluctuations in pollution levels?",
+                "bot": null,
+                "eval": {
+                    "type": "additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Where does this dataset source its data from",
+                "bot": null,
+                "eval": {
+                    "type": "additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/london-atmospheric-emissions-inventory--laei--2019"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Water Quality #1",
+        "turns": [
+            {
+                "user": "Wie ist die Wasser Qualität von deutschen Seen und Flüssen?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [ 
+                        {"dataset_title": "Qualität des oberflächennahen Grundwassers (Umweltatlas)",
+                    "relevance": 4
+                },                         {
+                    "dataset_title": "WRRL-Bewertung Nordsee DE",
+                    "relevance": 4
+                },
+                {
+                    "dataset_title": "WRRL-Bewertung Nordsee DE Grid",
+                    "relevance": 4
+                },
+                {
+                    "dataset_title": "Badegewässerqualität",
+                    "relevance": 3
+                },
+                {
+                    "dataset_title": "WRRL-Bewertung Ostsee DE Grid",
+                    "relevance": 4
+                },
+                {
+                    "dataset_title": "Gewässerkundliche Messdaten",
+                    "relevance": 3
+                }
+            ]
+                }
+            },
+            {
+                "user": "Which of these datasets provide water contamination data, such as bacterial counts or chemical pollutants?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "How frequently is this dataset updated?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "What are the licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "UK Open Government License"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Water Quality #2",
+        "turns": [
+            {
+                "user": "Gibt es Daten dazu wie sich die Wasserqualität aufgrund des Klimawandels verändert?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [ {"dataset_title": "GEMS/Water Open Global Water Quality Dataset",
+                    "relevance": 4
+                }, {"dataset_title": "Klima - Oberflächengewässer  Änderung Mittelwasserabfluss (MQ)",
+                "relevance": 4},
+                {
+                    "dataset_title": "Klima - Oberflächengewässer Änderung Hochwasser Abflussscheitel (HQ100)",
+                    "relevance": 4
+                },
+                {
+                    "dataset_title": "Klima - Oberflächengewässer Änderung Niedrigwasserabfluss (NM7Q)",
+                    "relevance": 4
+                }
+
+            
+            
+            ]
+                }
+            },
+            {
+                "user": "Does this dataset compare pollution levels before and after recent UK flooding events?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Does this dataset include chemical contamination, such as nitrate levels from farming?",
+                "bot": null,
+                "eval": {
+                    "type": "additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset publisher’s page?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "How frequently is this dataset updated?",
+                "bot": null,
+                "eval": {
+                    "type": "additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Cost of Living #1",
+        "turns": [
+            {
+                "user": "Findest du einen datensatz der die Inflation sowie die Lebenskosten anzeigt?",
+                "bot": null,
+                "eval": {
+                    "type": "dataset Request",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Verbraucherpreisindex, Gesamtindex",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Verschiedene Preisindizes",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Verbraucherpreisindex, Nahrungsmittel und alkoholfreie Getränke",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Harmonisierter Verbraucherpreisindex: Deutschland, Monate, Europäische Klassifikation der Verwendungszwecke des Individualkonsums (ECOICOP 2-/3-/4-/5-Steller/Sonderpositionen)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Verbraucherpreisindex: Deutschland, Jahre",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Harmonisierter Verbraucherpreisindex: Deutschland, Jahre",
+                            "relevance": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Does this dataset differentiate inflation trends by spending category (e.g., food, housing, energy)?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Where can I find the official metadata and documentation for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/gla-poll-results-cost-of-living-2022",
+                        "https://data.london.gov.uk/dataset/pay-and-inflation-trends-in-london-and-the-uk-since-2010",
+                        "https://data.london.gov.uk/dataset/consumer-price-inflation--food-and-non-alcoholic-beverages",
+                        "https://data.london.gov.uk/dataset/the-rising-cost-of-living-and-its-effects-on-londoners"
+                    ]
+                }
+            },
+            {
+                "user": "What format is this dataset available in?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: xls",
+                        "Dataset 2: PDF",
+                        "Dataset 3: xlsx",
+                        "Dataset 4: pdf",
+                        "xlsx"
+                    ]
+                }
+            },
+            {
+                "user": "Who collects and maintains this dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: GLA Opinion Research",
+                        "Dataset 2: GLA Economics",
+                        "Dataset 3: ONS",
+                        "Dataset 4: City Intelligence"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Cost of Living #2",
+        "turns": [
+            {
+                "user": "Ich suche Datensätze die die Inflation beschreiben.",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Verbraucherpreisindex, Gesamtindex",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Verbraucherpreisindex, Nahrungsmittel und alkoholfreie Getränke",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Bruttoinlandsprodukt und Bruttowertschöpfung",
+                            "relevance": 3
+                        },
+                        {
+                            "dataset_title": "Verbraucherpreisindex: Deutschland, Monate",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Verbraucherpreisindex: Bundesländer, Monate",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Harmonisierter Verbraucherpreisindex: Deutschland, Jahre, Europäische Klassifikation der Verwendungszwecke des Individualkonsums (ECOICOP 2-/3-/4-/5-Steller/Sonderpositionen)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Verbraucherpreisindex: Deutschland, Jahre",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Harmonisierter Verbraucherpreisindex: Deutschland, Jahre",
+                            "relevance":4
+                        }
+
+
+                    ]
+                }
+            },
+            {
+                "user": "Which datasets provide regional breakdowns of cost-of-living trends in the UK?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Does this dataset rely on household surveys, retail price indices, or other data sources?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/impacts-of-rising-cost-of-living-on-london",
+                        "https://data.london.gov.uk/dataset/gla-poll-results-cost-of-living-2022",
+                        "https://data.london.gov.uk/dataset/the-rising-cost-of-living-and-its-effects-on-londoners"
+                    ]
+                }
+            },
+            {
+                "user": "What licensing restrictions apply to using this dataset for research?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: Licence: Not Specified",
+                        "Dataset 2: UK Open Government License",
+                        "Dataset 3: Licence: Not Specified"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Energy Consumption #1",
+        "turns": [
+            {
+                "user": "How is the energy consumption across different sectors?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Energieverbrauch - Jahressumme -regionale Ebenen",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Energieverbräuche (Umweltatlas)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Energieverbrauch - Jahressumme -regionale Tiefe: Kreise und krfr. Städte",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Energieverbrauch: Deutschland, Jahre, Produktionsbereiche",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Primärenergieverbrauch nach Wirtschaftszweigen(Verarbeitendes Gewerbe) - Land - Jahr",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Primärenergieverbrauch nach Wirtschaftszweigen(Verarbeitendes Gewerbe) - Jahr - regionale Tiefe:Bundesländer",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Energieverbrauch nach Energieträge (2003 - 2022)",
+                            "relevance": 3
+                        }
+                    ]
+                }
+            },
+            {
+                "user": "Does this dataset differentiate between renewable and fossil fuel energy use?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Where can I find the official metadata and documentation for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/total-energy-consumption-borough"
+                    ]
+                }
+            },
+            {
+                "user": "What format is this dataset available in?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "xls",
+                        "csv"
+                    ]
+                }
+            },
+            {
+                "user": "Does this dataset track seasonal variations in energy consumption?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "No"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Energy Comsumption #2",
+        "turns": [
+            {
+                "user": "Gibt es Datensätze die die Produktion erneuerbarer Energien verfolgen in Köln?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [                        
+                        {
+                        "dataset_title": "Erneuerbare Energien",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Aktuelle erzeugte Leistung aus Wind- und Sonnenenergie",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Anteil erneuerbarer Energien am Bruttostromverbrauch - Land- Jahr",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Anteil erneuerbarer Energien am Stromverbrauch (Lkr.)",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Strom aus erneuerbaren Energien nach Energieträger (Gem.)",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Strom aus erneuerbaren Energien nach Energieträger (Plan.-Reg.)",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Kartenlayer Spezifische Energieleistungsdichte 150m in NRW",
+                        "relevance": 3
+                    }
+                
+                
+                
+                ]
+                }
+            },
+            {
+                "user": "Which of these datasets include solar, wind, and hydroelectric energy production?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Does this dataset provide historical comparisons of renewable energy growth over the last decade?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset publisher’s page?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Migration #1",
+        "turns": [
+            {
+                "user": "Hast du Daten die die Migration in NRW verfolgen?",
+                "bot": null,
+                "eval": {
+                    "type": "dataset Request",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Statistik - Wohnberechtigte Bevölkerung - Migrationsvorgeschichte",
+                            "relevance": 3
+                        },
+                        {
+                            "dataset_title": "Bevölkerungsindikatoren - Migration",
+                            "relevance": 3
+                        },
+                        {
+                            "dataset_title": "Bevölkerung in NRW nach Zuwanderungsstatus, Geschlecht und Altersgruppen",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Bevölkerung in NRW und Deutschland nach Migrationsstatus, Geschlecht und Altersgruppen",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Saldo der Zu- und Fortzüge von Deutschen und Nichtdeutschen über die Grenzen Nordrhein-Westfalens nach Geschlecht",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Unterbringungszahlen von Flüchtlingen in Düsseldorf seit 2012",
+                            "relevance": 3
+                        },
+                        {
+                            "dataset_title": "Integrationsmonitoring NRW",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Ausländische Bevölkerung in NRW und Deutschland nach Geschlecht und Aufenthaltsstatus",
+                            "relevance": 3
+                        }
+
+                    ]
+                }
+            },
+            {
+                "user": "Does this dataset differentiate between work visas, student visas, and asylum seekers?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Where can I find the official metadata and documentation for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": [
+                        "https://data.london.gov.uk/dataset/improvements-estimating-migration",
+                        "https://data.london.gov.uk/dataset/londons-population",
+                        "https://data.london.gov.uk/dataset/potential-impacts-of-skills-based-immigration-policies-in-london",
+                        "https://data.london.gov.uk/dataset/migration-indicators"
+                    ]
+                }
+            },
+            {
+                "user": "What format is this dataset available in?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": [
+                        "Dataset 1: xls",
+                        "pdf",
+                        "Dataset 2: html",
+                        "Dataset 3: xlsx",
+                        "Dataset 4: xls"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Migration #2",
+        "turns": [
+            {
+                "user": "Gibt es Datensätze die Migration in Berlin tracken?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [
+                        {
+                            "dataset_title": "Einwohnerinnen und Einwohner mit Migrationshintergrund in Berlin in LOR-Planungsräumen nach Herkunftsgebieten am 31.12.2019",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Einwohnerinnen und Einwohner mit Migrationshintergrund in Berlin in LOR-Planungsräumen nachHerkunftsgebieten am 31.12.2018",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Einwohnerinnen und Einwohner mit Migrationshintergrund in Berlin in LOR-Planungsräumen nach Herkunftsgebieten am 31.12.2014",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Einwohnerinnen und Einwohner mit Migrationshintergrund in Berlin in LOR-Planungsräumen nach Herkunftsgebieten am 31.12.2011",
+                            "relevance": 4
+                        }
+
+                    ]
+                }
+            },
+            {
+                "user": "Which datasets provide historical trends for immigration and emigration over the last 20 years?",
+                "bot": null,
+                "eval": {
+                    "type": "Clarification",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Does this dataset include nationality, gender, and age breakdowns?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Electric Vehicle Charging#1",
+        "turns": [
+            {
+                "user": "Wo kann man sein E-Auto aufladen in Deutschland?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Liste der Ladesäulen",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "OBELISöffentlich: Stamm- und Betriebsdaten geförderter öffentlich zugänglicher Ladestationen für Elektrofahrzeuge",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Deutschland: E-Ladesäulen",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "E-Tankstellen Standorte - Projekt NOX-Block",
+                        "relevance": 4
+                    }
+                ]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+
+    {
+        "conversation_id": "Building Stock Model #1",
+        "turns": [
+            {
+                "user": "Wie viel Energie braucht ein Gebäude in Deutschland?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Baufertigstellungen neuer Gebäude: Deutschland, Jahre,Gebäudeart, Energieverwendung, Energieart",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Baugenehmigungen neuer Gebäude: Deutschland, Jahre,Gebäudeart, Energieverwendung, Energieart",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Stromverbrauch von Nicht-Haushalten: Deutschland, Jahre, Jahresverbrauchsklassen",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Stromverbrauch von Haushalten: Deutschland, Jahre, Jahresverbrauchsklassen",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Wärmebedarfsdichte im Ist-Zustand",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Baufertigstellungen neuer Gebäude: Bundesländer, Jahre,Gebäudeart, Energieverwendung, Energieart",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Energieverbräuche (Umweltatlas)",
+                        "relevance": 4
+                    }
+                ]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Building Stock Model #2",
+        "turns": [
+            {
+                "user": "Ich suche nach einem Datensatz, der die Energieeffizienz von Wohngebäuden detailliert darstellt.",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Energieproduktivität, Energieintensität, Energieverbrauch je Einwohner",
+                        "relevance": 4
+                    }, 
+                    {
+                        "dataset_title": "Baufertigstellungen neuer Gebäude: Deutschland, Jahre,Gebäudeart, Energieverwendung, Energieart",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Baugenehmigungen neuer Gebäude: Deutschland, Jahre,Gebäudeart, Energieverwendung, Energieart",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Wärmekataster, Wärmebedarf Wohnen 2016",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Wärmekataster Stromverbrauch Hamburg",
+                        "relevance": 2
+                    }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Fire Incidents #1",
+        "turns": [
+            {
+                "user": "Kann ich auf Daten über Brandvorfälle in Düsseldorf zugreifen?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Personenschäden bei Bränden der Feuerwehr Düsseldorf seit 2015",
+                        "relevance": 2
+                    }, 
+                    {
+                        "dataset_title": "Einsätze der Feuer- und Rettungswachen der Feuerwehr Düsseldorf seit 2015",
+                        "relevance": 4
+                    },
+                    {   
+                        "dataset_title": "Brandeinsätze der Feuerwehr Düsseldorf seit 2015",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Technische Hilfeleistungen der Feuerwehr Düsseldorf seit 2015",
+                        "relevance": 4
+                    }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Fire Incidents #2",
+        "turns": [
+            {
+                "user": "Wie viele Brandfälle gab es in Berlin?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Einsatzkennzahlen der Berliner Feuerwehr",
+                        "relevance": 4
+                    }, 
+                    {
+                        "dataset_title": "Einsätze der Berliner Feuerwehr",
+                        "relevance": 4
+                    },
+                    {   
+                        "dataset_title": "Regionale Einsatzkennzahlen der Berliner Feuerwehr",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Kriminalitätsatlas Berlin",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Staatliche Dienste im INSPIRE-Datenmodell (Brandschutzdienst)",
+                        "relevance": 4
+                    }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Tourism #1",
+        "turns": [
+            {
+                "user": "Kann ich auf Datensätze zum Thema Tourismus, einschließlich prognostizierter Besucherzahlen in München, zugreifen?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "München (Lkr): Tourismus",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "München, Landeshauptstadt: Tourismus",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Ankünfte, Übernachtungen, durchschnittliche Aufenthaltsdauerin Beherbergungsbetrieben: Bundesländer, Jahre",
+                        "relevance": 3
+                    },
+                    {
+                        "dataset_title": "Ankünfte, Übernachtungen in Beherbergungsbetrieben:Bundesländer, Monate",
+                        "relevance": 3 
+                    },
+                    {
+                        "dataset_title": "Monatszahlen Tourismus",
+                        "relevance": 4
+                    }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Tourism #2",
+        "turns": [
+            {
+                "user": "Wie viel Touristen sind nächstes Jahr in Berlin?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Tourismus in Berlin",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Ankünfte, Übernachtungen, durchschnittliche Aufenthaltsdauerin Beherbergungsbetrieben: Bundesländer, Jahre",
+                        "relevance": 3
+                    },
+                    {
+                        "dataset_title": "Ankünfte, Übernachtungen in Beherbergungsbetrieben:Bundesländer, Monate",
+                        "relevance": 3 
+                    }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Allotment Locations #1",
+        "turns": [
+            {
+                "user": "Wo befinden sich Kleingärten in Wuppertal?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Kleingartenanlagen Wuppertal",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Quartiere Wuppertal",
+                        "relevance": 3
+                    }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Allotment Locations #2",
+        "turns": [
+            {
+                "user": "Hast du den Kleingartenanlagen Wuppertal Datensatz?",
+                "bot": null,
+                "eval": {
+                    "type": "Dataset Request",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Kleingartenanlagen Wuppertal",
+                        "relevance": 4
+                    }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Fire Safety #1",
+        "turns": [
+            {
+                "user": "Hast du Daten zu Brandschutzinspektionen in NRW?",
+                "bot": null,
+                "eval": {
+                    "type": "Dataset Request",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Brandverhütungsschau",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Brandobjekte in den Regierungsbezirken",
+                        "relevance": 4
+                    }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Fire Safety #2",
+        "turns": [
+            {
+                "user": "Ich suche Daten von Brandschutzinspektionen in Berlin und deren Ergebnisse.",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Regulatory fire safety Inspections and audits",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Home Fire Safety Visits by London Borough",
+                        "relevance": 4
+                    }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Solar Energy #1",
+        "turns": [
+            {
+                "user": "Ich suche nach Daten zu Solarenergie in Hamburg.",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Solarpotenzialflächen Hamburg",
+                        "relevance": 4
+                    }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Solar Energy #2",
+        "turns": [
+            {
+                "user": "Wieviel Solar Energie benutzt Bayern?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Anteil Photovoltaik am Stromverbrauch (Gem.)",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Anteil Photovoltaik am Stromverbrauch (Lkr.)",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Strom aus Photovoltaik - Statistik (Bay.)",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Praxisbeispiele – Photovoltaik im Energie‑Atlas Bayern",
+                        "relevance": 4
+                    }
+                ]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Electric Consumption #1",
+        "turns": [
+            {
+                "user": "Hast du Daten zu Stromverbrauch pro Region?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Primärenergieverbrauch nach Wirtschaftszweigen(Wirtschaftssektoren) und privaten Haushalten - Jahr -regionale Tiefe: Bundesländer",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Energieverbrauch - Jahressumme - regionale Ebenen",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Primärenergieverbrauch - Jahr - regionale Tiefe:Bundesländer",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Primärenergieverbrauch nach Art der Energieträger - Jahr -regionale Tiefe: Bundesländer",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Energieverbrauch - Jahressumme -regionale Ebenen",
+                        "relevance": 4
+                    }
+                    ]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Electric Consumption #2",
+        "turns": [
+            {
+                "user": "Wie viel Strom verbraucht Deutschland?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Stromverbrauch von Haushalten: Deutschland, Jahre, Jahresverbrauchsklassen",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Stromverbrauch von Nicht-Haushalten: Deutschland, Jahre, Jahresverbrauchsklassen",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Elektrizitätserzeugung, Nettowärmeerzeugung,Brennstoffeinsatz: Deutschland, Jahre, Energieträger",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Energieverbrauch: Deutschland, Jahre, Produktionsbereiche",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Strompreise für Haushalte: Deutschland, Jahre,Jahresverbrauchsklassen, Preisbestandteile",
+                        "relevance": 2
+                    },
+                    {
+                        "dataset_title": "Stromverbrauch seit 1990",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Energieverbrauch nach Energieträger - kreisfreie Städte undKreise - Jahr",
+                        "relevance": 3
+                    },
+                    {
+                        "dataset_title": "Energieverbräuche (Umweltatlas)",
+                        "relevance": 3
+                    }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Job Postings #1",
+        "turns": [
+            {
+                "user": "Gibt es Daten zu Jobausschreibungen in Bayern?",
+                "bot": null,
+                "eval": {
+                    "type": "Dataset Request",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Nürnberger Land (Lkr): Arbeitsmarkt",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Bayern: Arbeitsmarkt",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title":"München, Landeshauptstadt: Arbeitsmarkt",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Bamberg (Krfr.St): Arbeitsmarkt",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "München (Lkr): Arbeitsmarkt",
+                        "relevance": 4
+                    }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Job Postings #2",
+        "turns": [
+            {
+                "user": "Welche Jobs werden in Bayern gesucht?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [                        
+                    {
+                        "dataset_title": "Nürnberger Land (Lkr): Arbeitsmarkt",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Bayern: Arbeitsmarkt",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title":"München, Landeshauptstadt: Arbeitsmarkt",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "Bamberg (Krfr.St): Arbeitsmarkt",
+                        "relevance": 4
+                    },
+                    {
+                        "dataset_title": "München (Lkr): Arbeitsmarkt",
+                        "relevance": 4
+                    }]
+                }
+        
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Reservoir Levels #1",
+        "turns": [
+            {
+                "user": "Hast du Hamburgs Wasserhaushalt Daten?",
+                "bot": null,
+                "eval": {
+                    "type": "Dataset Request",
+                    "ground_truth_ld": [                        
+                        {
+                            "dataset_title": "Referenzwerte naturnaher Wasserhaushalt Hamburg",
+                            "relevance": 4
+                        },
+                        {   
+                            "dataset_title": "Wasserhaushalt Hamburg",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Wasserschutzgebiete Hamburg",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "WRRL Grundlagendaten Hamburg",
+                            "relevance": 3
+                        }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Reservoir Levels #2",
+        "turns": [
+            {
+                "user": "Wie viel Wasser hat Hamburg?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [                        
+                        {
+                            "dataset_title": "Wasserhaushalt Hamburg",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Referenzwerte naturnaher Wasserhaushalt Hamburg",
+                            "relevance": 3
+                        }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Renewable Energy Installations #1",
+        "turns": [
+            {
+                "user": "Wie viel erneuerbare Energien hat Sachsen installiert?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [                        
+                        {
+                            "dataset_title": "Erneuerbare Energien: Anlagen, installierte Anlagen-Leistung, Bruttostromerzeugung, Energieträger - Sachsen- Jahre",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Windenergieanlagen in Sachsen",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Elektrizitätsversorgung: Elektrizitätserzeugung in denKraftwerken der allgemeinen Versorgung 1) - Sachsen - Jahre(1991 bis 2017)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Elektrizitätsversorgung: Öffentliche Elektrizitätsversorg.- Sachsen - Jahre (1991 bis 2000) 1)",
+                            "relevance": 4
+                        }
+                        ]
+
+
+    
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+
+    {
+        "conversation_id": "Renewable Energy Installations #2",
+        "turns": [
+            {
+                "user": "Wie viel erneuerbare Energien hat Nordrhein-Westfalen installiert?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [                        
+                        {
+                            "dataset_title": "Standorte Energieerzeugende Anlagen Strom und Wärme NRW (Erneuerbare und konventionelle Energien)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Potenziale Erneuerbare Energien NRW",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Solarkataster NRW: Strahlungsenergie (historisch)",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Kartenlayer Windkraftanlagen NRW",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Kartenlayer Dachflächenphotovoltaikanlagen",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Kartenlayer Wasserkraftanlagen NRW",
+                            "relevance": 4
+                        }
+            
+                    
+                    
+                    ]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+
+
+    {
+        "conversation_id": "Public Toilets #1",
+        "turns": [
+            {
+                "user": "Wo sind die öffentlichen Toiletten in Berlin?",
+                "bot": null,
+                "eval": {
+                    "type": "Implied Dataset",
+                    "ground_truth_ld": [                        
+                        {
+                            "dataset_title": "Öffentliche Toiletten",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Öffentliche Toiletten im Bezirk Lichtenberg",
+                            "relevance": 3
+                        },
+                        {
+                            "dataset_title": "Standorte der öffentlichen Toiletten",
+                            "relevance": 4
+                        }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    },
+    {
+        "conversation_id": "Public Toilets #2",
+        "turns": [
+            {
+                "user": "Wo finde ich öffentliche Toiletten in Köln?",
+                "bot": null,
+                "eval": {
+                    "type": "Described Dataset",
+                    "ground_truth_ld": [                        
+                        {
+                            "dataset_title": "Oeffentliche Toiletten Koeln",
+                            "relevance": 4
+                        },
+                        {
+                            "dataset_title": "Toilettenstandorte Köln",
+                            "relevance": 4
+                        }]
+                }
+            },
+            {
+                "user": "Where can I find licensing details for this dataset?",
+                "bot": null,
+                "eval": {
+                    "type": "Additional Dataset Information",
+                    "ground_truth_ld": []
+                }
+            },
+            {
+                "user": "Can you provide a direct link to the dataset",
+                "bot": null,
+                "eval": {
+                    "type": "Source Request",
+                    "ground_truth_ld": []
+                }
+            }
+        ]
+    }
+   
+]

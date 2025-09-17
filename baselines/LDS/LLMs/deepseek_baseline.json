@@ -1,0 +1,2784 @@
+[
+  {
+    "conversation_id": "Property Prices #1",
+    "turns": [
+      {
+        "user": "Can you find me a dataset with the average property prices in London?",
+        "eval_type": "described dataset",
+        "top_results": [
+          "Average House Prices by Borough, Ward, MSOA & LSOA",
+          "Housing in London - The evidence base for the Mayor's Housing Strategy"
+        ],
+        "hallucination": [
+          "UK House Price Index: London",
+          "Property Sales Data",
+          "Ward Level House Price Data"
+        ],
+        "result": {
+          "precision": 0.5,
+          "recall": 0.143,
+          "f1": 0.222,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 1.5
+        }
+      },
+      {
+        "user": "Where is this dataset hosted? Can you provide a download link?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Does this dataset include additional details such as property types (flats, houses, etc.)?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Property Prices #2",
+    "turns": [
+      {
+        "user": "How have property prices in London changed over the past 20 years?",
+        "eval_type": "implied dataset",
+        "top_results": [
+          "Average House Prices by Borough, Ward, MSOA & LSOA",
+          "Housing in London - The evidence base for the Mayor's Housing Strategy"
+        ],
+        "hallucination": [
+          "UK House Price Index: London"
+        ],
+        "result": {
+          "precision": 0.5,
+          "recall": 0.143,
+          "f1": 0.222,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 0.5
+        }
+      },
+      {
+        "user": "Can you provide direct links to download these datasets?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Are these datasets updated regularly, and do they include projections for future trends?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Postcode Address Files #1",
+    "turns": [
+      {
+        "user": "Can you provide me with the UK Ordnance Survey Open Names dataset containing all street names and postal codes?",
+        "eval_type": "dataset request",
+        "top_results": [
+          "London output area classification"
+        ],
+        "hallucination": [
+          "Public London Street Network (Link and Node)",
+          "Ward Atlas",
+          "Greater London Authority (GLA) Geography",
+          "Property Sales Data"
+        ],
+        "result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 4.0
+        }
+      },
+      {
+        "user": "Can you provide a direct link?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Does this dataset include historical changes in street names or only the latest data?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Under what license is this dataset published?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Postcode Address Files #2",
+    "turns": [
+      {
+        "user": "Are there publicly available datasets listing all street names and corresponding postal codes in the UK?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [
+          "Public London Street Network (Link and Node)",
+          "Ward Atlas"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Where can I download an official UK government dataset for postal codes?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "What data formats are available?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Does this dataset also include alternative names for streets (e.g., historical names)?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Education #1",
+    "turns": [
+      {
+        "user": "Can you provide the Higher Education Statistics Agency (HESA) dataset on university enrollment by gender in the UK from 1946 to 2021?",
+        "eval_type": "dataset request",
+        "top_results": [],
+        "hallucination": [],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "This dataset only covers data from 2000 onward. I need historical records from 1946. Can you refine your search?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a link to where I can download the full dataset?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "What licensing restrictions apply to this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Education #2",
+    "turns": [
+      {
+        "user": "Are there datasets tracking the gender ratio of students in universities over time?",
+        "eval_type": "described dataset",
+        "top_results": [
+          "Ward Profiles and Atlas"
+        ],
+        "hallucination": [
+          "Qualifications of Working-Age Londoners",
+          "Annual Population Survey"
+        ],
+        "result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 2.0
+        }
+      },
+      {
+        "user": "What sources provide this data?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide direct links to datasets that track student gender ratios at UK universities?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Do these datasets also include dropout rates and retention statistics?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Homelessness #1",
+    "turns": [
+      {
+        "user": "Can you provide me with a dataset of the number of homeless people in the UK between 2010 and 2023?",
+        "eval_type": "dataset request",
+        "top_results": [],
+        "hallucination": [
+          "Street Homelessness: Rough Sleeping",
+          "Homelessness: Temporary Accommodation",
+          "Homelessness: Applications, Assessments, and Decisions"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "This dataset is missing data for the years 2020–2023. Can you refine your search to find a more up-to-date dataset?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Can you provide a link to the original dataset?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "What is the definition of ‘homeless’ used in this dataset? Could differences in definitions across countries skew the comparison?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Homelessness #2",
+    "turns": [
+      {
+        "user": "Are there any publicly available datasets tracking homelessness trends in UK cities over time?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [
+          "Street Homelessness: Rough Sleeping",
+          "Homelessness: Temporary Accommodation",
+          "Homelessness: Applications, Assessments, and Decisions"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Can you compare the homelessness trends between London, Manchester, and Birmingham?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "This dataset only includes data from London. I need a dataset that includes multiple cities. Can you refine your search?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Where can I find government reports or open data portals with nationwide homelessness statistics?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "What is the definition of ‘homeless’ used in this dataset? Does it include rough sleepers, temporary housing, and hidden homelessness?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Food #1",
+    "turns": [
+      {
+        "user": "Can you provide me with the Food Foundation dataset on how much of their food budget people in the UK spend on foods high in salt, sugar, or fat?",
+        "eval_type": "dataset request",
+        "top_results": [],
+        "hallucination": [
+          "Food Flagship: Evidence and Data"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "This dataset is outdated. I need data from 2022 or 2023. Can you refine your search to find a more up-to-date version?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Where does this dataset come from? Is it based on government surveys or supermarket sales data?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to this dataset?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Does this dataset break down spending by household income groups?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "How does the Food Foundation define ‘poorest households’?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Food #2",
+    "turns": [
+      {
+        "user": "Are there publicly available datasets that track how much UK households spend on foods high in salt, sugar, or fat?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [
+          "Family Spending in London"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Is there any recent data (2022 or 2023) on how much adults spend on these foods, either overall or as a percentage of their budget?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Are there any datasets that explain why people, particularly those in lower-income households, choose foods high in salt, sugar, and fat?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide datasets or surveys that ask people about their reasons for purchasing junk foods?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you give me the link to the 2022 Food Foundation report and the two surveys you cited above?",
+        "eval_type": "link request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Tree Canopy Cover #1",
+    "turns": [
+      {
+        "user": "Is there a publicly available dataset for tree canopy cover in London?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [
+          "London Tree Canopy Cover",
+          "GiGL Data - Open Space (Greenspace Information for Greater London)",
+          "Urban Forest: Extent, Composition and Distribution",
+          "Land Cover Classification (2019)",
+          "i-Tree Eco London"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "What license does this dataset have?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Do you have a source for this additional information? ",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Tree Canopy Cover #2",
+    "turns": [
+      {
+        "user": "Can you provide me with the Greater London Authority (GLA) dataset on tree canopy cover in London?",
+        "eval_type": "dataset request",
+        "top_results": [],
+        "hallucination": [
+          "London Tree Canopy Cover (2019)",
+          "i-Tree Eco London"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "This dataset is outdated. Is there a more recent dataset, ideally from 2022 or 2023?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can I compare this dataset to other cities?",
+        "eval_type": "further context/advice request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Who maintains this dataset? Is it collected by satellites, aerial surveys, or local councils?",
+        "eval_type": "further context/advice request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a link to the dataset?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Census #1",
+    "turns": [
+      {
+        "user": "Can you access the most recent London census data?",
+        "eval_type": "dataset request",
+        "top_results": [
+          "Ward Profiles and Atlas"
+        ],
+        "hallucination": [
+          "Census 2021: Population and household estimates",
+          "Census 2021: Ethnic group",
+          "Borough Profiles"
+        ],
+        "result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 3.0
+        }
+      },
+      {
+        "user": "Can you provide me with the summary of the census data for London?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Where can I download the full dataset for London?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Can I get this data in CSV format?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "How frequently is this dataset updated? Is it the 2021 census or a more recent update?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Census #2",
+    "turns": [
+      {
+        "user": "Can you return the most recent census data?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [
+          "Census 2021",
+          "Census 2021: Population and household estimates",
+          "Borough Profiles (which incorporate census data)"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Can you provide me with the direct link to download those CSV files?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Why did you include the links to PDF files even though I only asked for CSVs?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Travel #1",
+    "turns": [
+      {
+        "user": "Can you provide me with the UK Department for Transport dataset on active travel infrastructure?",
+        "eval_type": "dataset request",
+        "top_results": [
+          "Cycling Infrastructure Database"
+        ],
+        "hallucination": [
+          "Travel in London Report (Supporting Datasets)",
+          "Santander Cycles Journey Data"
+        ],
+        "result": {
+          "precision": 1.0,
+          "recall": 0.2,
+          "f1": 0.333,
+          "avg_relevance": 3.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 2.0
+        }
+      },
+      {
+        "user": "What formats is this dataset available in?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "How frequently is this dataset updated?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset publisher’s page?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Travel #2",
+    "turns": [
+      {
+        "user": "How does the UK government track active travel infrastructure?",
+        "eval_type": "implied dataset",
+        "top_results": [
+          "Cycling Infrastructure Database"
+        ],
+        "hallucination": [],
+        "result": {
+          "precision": 1.0,
+          "recall": 0.167,
+          "f1": 0.286,
+          "avg_relevance": 3.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 0.0
+        }
+      },
+      {
+        "user": "Where can I find a report summarizing key trends from this dataset? (",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "What organizations contribute to updating this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Universal Credit/Medical #1",
+    "turns": [
+      {
+        "user": "Are there publicly available datasets on antibiotic prescriptions in England?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Which of the datasets you found specifically track NHS prescriptions?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Is this dataset available in a downloadable CSV format?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset publisher’s page?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Rainfall #1",
+    "turns": [
+      {
+        "user": "Are there publicly available datasets tracking rainfall in London?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Which of these datasets provides high-resolution rainfall data at areal level?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Does this dataset identify the rainiest area in London?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Population Trends #1",
+    "turns": [
+      {
+        "user": "Find me a dataset that tracks UK population trends since 1800.",
+        "eval_type": "dataset request",
+        "top_results": [
+          "Historical Census Population",
+          "Focus on London - Population and Migration"
+        ],
+        "hallucination": [
+          "GLA Population Projections"
+        ],
+        "result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0.5
+        }
+      },
+      {
+        "user": "Does this dataset break population trends down by age group?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can I have a link to this dataset? ",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Population Trends #2",
+    "turns": [
+      {
+        "user": "Are there publicly available datasets tracking UK historical population changes?",
+        "eval_type": "described dataset",
+        "top_results": [
+          "Historical Census Population",
+          "Focus on London - Population and Migration"
+        ],
+        "hallucination": [
+          "GLA Population Projections"
+        ],
+        "result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0.5
+        }
+      },
+      {
+        "user": "Which datasets allow for time-series analysis of UK population growth?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Does this dataset provide annual, decadal, or census-based estimates?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Traffic #1",
+    "turns": [
+      {
+        "user": "Can you provide me with a dataset on traffic congestion levels in major UK cities?",
+        "eval_type": "dataset request",
+        "top_results": [
+          "Cycling Infrastructure Database"
+        ],
+        "hallucination": [
+          "Travel in London Reports",
+          " Air Quality and Emissions Data"
+        ],
+        "result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 2.0
+        }
+      },
+      {
+        "user": "What metric does this dataset use to define congestion? Journey time, average speed, or something else?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Where can I find the official metadata and documentation for this dataset?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "What format is this dataset available in?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Traffic #2",
+    "turns": [
+      {
+        "user": "What are the rush hour patterns in the UK?",
+        "eval_type": "implied dataset",
+        "top_results": [
+          "Cycling Infrastructure Database"
+        ],
+        "hallucination": [
+          "Travel in London Reports",
+          "Road Traffic Statistics",
+          "Bus Performance Data",
+          "London Underground and Rail Usage Data"
+        ],
+        "result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 4.0
+        }
+      },
+      {
+        "user": "Does this dataset differentiate between commuter traffic and freight traffic?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "What method does this dataset use to collect traffic data",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Who maintains this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can I have a link to this dataset? ",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Transport Usage #1",
+    "turns": [
+      {
+        "user": "Are there publicly available datasets tracking accessibility in UK public transport systems?",
+        "eval_type": "described dataset",
+        "top_results": [
+          "Public Transport Accessibility Levels"
+        ],
+        "hallucination": [
+          "Disability and Transport Accessibility",
+          "NaPTAN (National Public Transport Access Nodes)",
+          "London Datastore Accessibility Hub"
+        ],
+        "result": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 3.0
+        }
+      },
+      {
+        "user": "Which datasets provide data on step-free access at train stations?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "How frequently is this dataset updated?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Transport Usage #2",
+    "turns": [
+      {
+        "user": "What is the domestic and international flight traffic like in UK?",
+        "eval_type": "implied dataset",
+        "top_results": [],
+        "hallucination": [],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Does this dataset differentiate between passenger and cargo flights?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Where can I find the official metadata and documentation for this dataset?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "What format is this dataset available in?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Who collects and maintains this dataset, and how frequently is it updated?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Weather #1",
+    "turns": [
+      {
+        "user": "Can you provide me with a dataset that tracks sunlight and rainfall patterns in the UK?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "How frequently is this dataset updated?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Where can I find the link for this dataset?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Does this dataset provide historical comparisons for past years’ sunlight and rainfall levels?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Weather #2",
+    "turns": [
+      {
+        "user": "Are there publicly available datasets that provide real-time weather data for the UK?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Which of these datasets provide detailed breakdowns on sunshine duration and rainfall patterns?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Does this dataset provide localized weather data for different UK regions?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Sports #1",
+    "turns": [
+      {
+        "user": "Are there publicly available datasets tracking trends in UK sports participation?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [
+          "Active Lives Survey",
+          "Cultural Participation",
+          "Health and Social Care: Physical inactivity in adults (18+)"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Which of these datasets provides long-term participation trends over the past 10 years?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Does this dataset rely on survey data, membership statistics, or another method?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset publisher’s page?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Sports #2",
+    "turns": [
+      {
+        "user": "How has sports participation changed in the UK over the last decade?",
+        "eval_type": "implied dataset",
+        "top_results": [],
+        "hallucination": [
+          "Active Lives Survey",
+          "Sport and Physical Activity",
+          "Annual Population Survey: Sport and Culture",
+          "Health and Social Care: Physical Inactivity",
+          "Walking and Cycling"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Does this dataset include reasons why participation is increasing or decreasing?",
+        "eval_type": "dataset request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Does this dataset allow for comparisons between UK regions (e.g., London vs. Scotland)?",
+        "eval_type": "further context/advice request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Who publishes this dataset, and what organizations contribute to the data?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Air Quality #1",
+    "turns": [
+      {
+        "user": "Can you find me a dataset that tracks air pollution levels in UK cities?",
+        "eval_type": "dataset request",
+        "top_results": [],
+        "hallucination": [],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Does this dataset include specific pollutants such as NO₂, PM10, and PM2.5?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Where can I find the official metadata and documentation for this dataset?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "What format is this dataset available in?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Who collects and maintains this dataset, and how frequently is it updated?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Air Quality #2",
+    "turns": [
+      {
+        "user": "Are there publicly available datasets that monitor long-term trends in UK air pollution?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Which of these datasets include air quality forecasts rather than just historical data?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Does this dataset track seasonal fluctuations in pollution levels?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Where does this dataset source its data from",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Water Quality #1",
+    "turns": [
+      {
+        "user": "How is the water quality of UK Lakes and rivers?",
+        "eval_type": "implied dataset",
+        "top_results": [],
+        "hallucination": [
+          "Water Quality in London's Rivers",
+          "Water Quality in London's Canals",
+          "Thames Bathing Water Quality",
+          "London Water Body Status",
+          "Sustainable Drainage Systems (SuDS) in London"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Which of these datasets provide water contamination data, such as bacterial counts or chemical pollutants?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "How frequently is this dataset updated?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "What are the licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Water Quality #2",
+    "turns": [
+      {
+        "user": "Are there publicly available datasets on the impact of climate change on UK water quality?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [
+          "London Climate Change Projections (UKCP09 and UKCP18)",
+          "Water Quality in London's Rivers",
+          "Thames Bathing Water Quality",
+          "London Water Body Status",
+          "Sustainable Drainage Systems (SuDS) in London"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Does this dataset compare pollution levels before and after recent UK flooding events?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Does this dataset include chemical contamination, such as nitrate levels from farming?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset publisher’s page?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "How frequently is this dataset updated?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Cost of Living #1",
+    "turns": [
+      {
+        "user": "Can you find me a dataset tracking UK inflation rates and cost-of-living changes?",
+        "eval_type": "dataset request",
+        "top_results": [],
+        "hallucination": [
+          "London's Economy Today",
+          "Citizens Advice Cost of Living Data",
+          "Experian Discretionary Income Data",
+          "Trust for London – London's Cost of Living Tracker"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Does this dataset differentiate inflation trends by spending category (e.g., food, housing, energy)?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Where can I find the official metadata and documentation for this dataset?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "What format is this dataset available in?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Who collects and maintains this dataset",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Cost of Living #2",
+    "turns": [
+      {
+        "user": "Are there publicly available datasets tracking the impact of inflation on household budgets?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [
+          "GLA Cost of Living Polling Data",
+          "Citizens Advice Cost of Living Dashboard (London Version)",
+          "Experian Discretionary Income Data",
+          "Household Support Fund Monitoring Data",
+          "London Poverty Profile"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Which datasets provide regional breakdowns of cost-of-living trends in the UK?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Does this dataset rely on household surveys, retail price indices, or other data sources?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "What licensing restrictions apply to using this dataset for research?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Energy Consumption #1",
+    "turns": [
+      {
+        "user": "How is the energy consumption across different sectors?",
+        "eval_type": "implied dataset",
+        "top_results": [
+          "Total Energy Consumption, Borough",
+          "London Building Stock Model (LBSM)",
+          "SmartMeter Energy Consumption Data in London Households"
+        ],
+        "hallucination": [],
+        "result": {
+          "precision": 0.333,
+          "recall": 0.25,
+          "f1": 0.286,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 0.0
+        }
+      },
+      {
+        "user": "Does this dataset differentiate between renewable and fossil fuel energy use?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Where can I find the official metadata and documentation for this dataset?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "What format is this dataset available in?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "Does this dataset track seasonal variations in energy consumption?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Energy Comsumption #2",
+    "turns": [
+      {
+        "user": "Are there publicly available datasets tracking renewable energy production in the UK?",
+        "eval_type": "described dataset",
+        "top_results": [
+          "London Heat Map"
+        ],
+        "hallucination": [
+          "Solar PV Capacity and Installations",
+          "Renewable Energy Projects in London",
+          "Feed-in Tariff (FIT) Statistics",
+          "Carbon Emissions and Energy Consumption"
+        ],
+        "result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 4.0
+        }
+      },
+      {
+        "user": "Which of these datasets include solar, wind, and hydroelectric energy production?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Does this dataset provide historical comparisons of renewable energy growth over the last decade?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset publisher’s page?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Migration #1",
+    "turns": [
+      {
+        "user": "Can you provide me with a dataset tracking immigration trends in the UK?",
+        "eval_type": "dataset request",
+        "top_results": [
+          "Births by Mother's Country of Birth in London",
+          "Population by Country of Birth"
+        ],
+        "hallucination": [
+          "GLA Population Projections",
+          "National Insurance Number Registrations to Overseas Nationals",
+          "Births by Birthplace of Mother",
+          "International Migration Flows",
+          "Population Turnover and Churn"
+        ],
+        "result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 2.5
+        }
+      },
+      {
+        "user": "Does this dataset differentiate between work visas, student visas, and asylum seekers?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Where can I find the official metadata and documentation for this dataset?",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      },
+      {
+        "user": "What format is this dataset available in?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Migration #2",
+    "turns": [
+      {
+        "user": "Are there publicly available datasets tracking emigration trends from the UK?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [
+          "GLA Population Projections",
+          "International Migration Flows",
+          "National Insurance Number Registrations to Overseas Nationals",
+          " Internal Migration Flows (Within UK)",
+          "Population Turnover and Churn"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Which datasets provide historical trends for immigration and emigration over the last 20 years?",
+        "eval_type": "clarification",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Does this dataset include nationality, gender, and age breakdowns?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "London Building Stock Model #2",
+    "turns": [
+      {
+        "user": "I'm looking for a dataset that details the energy performance of London's residential buildings.",
+        "eval_type": "described dataset",
+        "top_results": [
+          "London Building Stock Model (LBSM)",
+          "Total Energy Consumption, Borough"
+        ],
+        "hallucination": [
+          "Energy Use Intensities in London Houses",
+          "Smart Meter Energy Consumption Data in London Households",
+          "Carbon Emissions and Energy Consumption"
+        ],
+        "result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 1.5
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Fire Incidents #1",
+    "turns": [
+      {
+        "user": "Can I access data on fire incidents in London?",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [
+          "Fire Incident and Mobilisation Data",
+          "Fire Facts: Fires in Greater London",
+          "Building Safety Inspections Data",
+          "Response Times and Incident Attendance",
+          "Fire Statistics Data Tables"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Fire Incidents #2",
+    "turns": [
+      {
+        "user": "How many fires were there in London?",
+        "eval_type": "implied dataset",
+        "top_results": [
+          "London Fire Brigade Incident Records",
+          "Bariatric incidents attended by LFB"
+        ],
+        "hallucination": [
+          "Fire Facts: Fires in Greater London",
+          "Response Times and Incident Attendance"
+        ],
+        "result": {
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.286,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 1.0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Tourism #1",
+    "turns": [
+      {
+        "user": "Can I access datasets for tourism, including predicted visitor numbers in London?",
+        "eval_type": "described dataset",
+        "top_results": [
+          "Tourism Trips, Borough"
+        ],
+        "hallucination": [],
+        "result": {
+          "precision": 1.0,
+          "recall": 0.167,
+          "f1": 0.286,
+          "avg_relevance": 3.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 0.0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Tourism #2",
+    "turns": [
+      {
+        "user": "How many tourists will come next year to London?",
+        "eval_type": "implied dataset",
+        "top_results": [
+          "Tourism Trips, Borough"
+        ],
+        "hallucination": [
+          "GLA Population Projections",
+          "Forecast Inbound Tourist Spending in London (2023-2031)",
+          "International Migration Flows",
+          "London Tourism Statistics (Aggregate Reports)"
+        ],
+        "result": {
+          "precision": 1.0,
+          "recall": 0.167,
+          "f1": 0.286,
+          "avg_relevance": 3.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 4.0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Allotment Locations in London #1",
+    "turns": [
+      {
+        "user": "Where are allotments located in London?",
+        "eval_type": "implied dataset",
+        "top_results": [],
+        "hallucination": [
+          "Allotments Dataset"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Allotment Locations in London #2",
+    "turns": [
+      {
+        "user": "Do you have the GiGL Spaces to Visit dataset?",
+        "eval_type": "dataset request",
+        "top_results": [],
+        "hallucination": [
+          "GiGL Spaces to Visit Dataset"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Fire Safety #1",
+    "turns": [
+      {
+        "user": "Do you have the fire safety inspections conducted by the London Fire Brigade?",
+        "eval_type": "dataset request",
+        "top_results": [],
+        "hallucination": [
+          "London Fire Brigade Building Safety Inspections",
+          "Fire Safety Enforcement and Compliance",
+          "High-Rise Residential Building Fire Safety",
+          "Operational Risk Database (ORD) Extracts",
+          "Fire Safety complaints and Community Reports"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Fire Safety #2",
+    "turns": [
+      {
+        "user": "I'm looking for a dataset detailing fire safety inspections across London, including inspection dates and outcomes.",
+        "eval_type": "described dataset",
+        "top_results": [
+          "Regulatory fire safety Inspections and audits"
+        ],
+        "hallucination": [
+          "London Fire Brigade Building Safety Inspections",
+          "Fire Safety Enforcement and Compliance Data",
+          "High-Rise Residential Building Fire Safety",
+          "Fire Safety Complaints and Community Reports"
+        ],
+        "result": {
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 4.0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Solar Energy #1",
+    "turns": [
+      {
+        "user": "I am looking for data on London's solar energy generation.",
+        "eval_type": "described dataset",
+        "top_results": [
+          "Photovoltaic (PV) Solar Panel Energy Generation data",
+          "Weather Data for Solar Energy Analysis",
+          "SmartMeter Energy Consumption Data in London Households"
+        ],
+        "hallucination": [
+          "Solar PV Capacity and Installations",
+          "London Solar Opportunity Map"
+        ],
+        "result": {
+          "precision": 0.333,
+          "recall": 0.2,
+          "f1": 0.25,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 0.667
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Solar Energy #2",
+    "turns": [
+      {
+        "user": "How much solar energy is London using?",
+        "eval_type": "implied dataset",
+        "top_results": [
+          "Photovoltaic (PV) Solar Panel Energy Generation data",
+          "Weather Data for Solar Energy Analysis",
+          "SmartMeter Energy Consumption Data in London Households"
+        ],
+        "hallucination": [
+          "Solar PV Capacity and Installations in London",
+          "London Solar Opportunity Map"
+        ],
+        "result": {
+          "precision": 0.333,
+          "recall": 0.5,
+          "f1": 0.4,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 0.667
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Electric Consumption #1",
+    "turns": [
+      {
+        "user": "Do you have datasets on electricity usage by borough?",
+        "eval_type": "described dataset",
+        "top_results": [
+          "Total Energy Consumption, Borough",
+          "Electricity Consumption, Borough",
+          "London Energy and Greenhouse Gas Inventory (LEGGI)",
+          "Photovoltaic (PV) Solar Panel Energy Generation data"
+        ],
+        "hallucination": [
+          "Smart Meter Energy Consumption Data in London Households"
+        ],
+        "result": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 0.25
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Electric Consumption #2",
+    "turns": [
+      {
+        "user": "How much electricity does each borough use?",
+        "eval_type": "implied dataset",
+        "top_results": [
+          "Electricity Consumption, Borough",
+          "Total Energy Consumption, Borough",
+          "London Energy and Greenhouse Gas Inventory (LEGGI)"
+        ],
+        "hallucination": [
+          "Smart Meter Energy Consumption Data in London Households"
+        ],
+        "result": {
+          "precision": 0.667,
+          "recall": 0.667,
+          "f1": 0.667,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 0.333
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Smart Meter Energy Usage #1",
+    "turns": [
+      {
+        "user": "Can I access the smart meter energy consumption data for London?",
+        "eval_type": "dataset request",
+        "top_results": [],
+        "hallucination": [
+          "SmartMeter Energy Consumption Data in London Households"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Smart Meter Energy Usage #2",
+    "turns": [
+      {
+        "user": "Can I access data that tells me how much energy each household consumed?",
+        "eval_type": "described dataset",
+        "top_results": [
+          "London Datastore Catalogue",
+          "London Fire Brigade Incident Records"
+        ],
+        "hallucination": [
+          "SmartMeter Energy Consumption Data in London Households",
+          "GiGL Spaces to Visit",
+          "Solar PV Capacity and Installations"
+        ],
+        "result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 1.5
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Job Postings #1",
+    "turns": [
+      {
+        "user": "Do you have the dataset green job postings?",
+        "eval_type": "dataset request",
+        "top_results": [],
+        "hallucination": [
+          "Green Jobs and Skills",
+          "Employment Trends",
+          "Economic Impact of COVID-19 on London’s SMEs",
+          "Employee Jobs by Sector",
+          "Green Economy and Sustainability"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Job Postings #2",
+    "turns": [
+      {
+        "user": "Are green jobs popular in London?",
+        "eval_type": "implied dataset",
+        "top_results": [],
+        "hallucination": [
+          "Green Jobs and Skills",
+          "Employment Trends",
+          "Economic Impact of COVID-19 on London’s SMEs",
+          "Employee Jobs by Sector",
+          "Green Economy and Sustainability"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Waste Dumping #1",
+    "turns": [
+      {
+        "user": "Can I access data on fly-tipping incidents?",
+        "eval_type": "dataset request",
+        "top_results": [],
+        "hallucination": [
+          "Fly-tipping Incidents and Enforcement Actions",
+          "Local Authority Fly-tipping Data",
+          "Waste and Recycling Statistics",
+          "Fly-tipping Hotspot Analysis",
+          "Costs of Fly-tipping Clearance and Enforcement"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Waste Dumping #2",
+    "turns": [
+      {
+        "user": "I am looking for datasets that detail how people illegaly dump waste on the steets",
+        "eval_type": "described dataset",
+        "top_results": [],
+        "hallucination": [
+          "Fly-tipping Incidents and Enforcement Actions",
+          "Local Authority Fly-tipping Data",
+          "Waste and Recycling Statistics",
+          "Fly-tipping Hotspot Analysis",
+          "Costs of Fly-tipping Clearance and Enforcement"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "London Reservoir Levels #1",
+    "turns": [
+      {
+        "user": "Do you have the dataset named London Reservoir Levels?",
+        "eval_type": "dataset request",
+        "top_results": [
+          "London Reservoir Levels"
+        ],
+        "hallucination": [],
+        "result": {
+          "precision": 1.0,
+          "recall": 0.333,
+          "f1": 0.5,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 0.0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "London Reservoir Levels #2",
+    "turns": [
+      {
+        "user": "How much water does London have?",
+        "eval_type": "implied dataset",
+        "top_results": [],
+        "hallucination": [
+          "London Water Consumption Data",
+          "London Sustainable Drainage Systems (SuDS) Implementation",
+          "Surface Water Flood Risk Map",
+          "Thames Water Infrastructure and Capacity",
+          "Water Resource Management Plans"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Renewable Energy Installations #1",
+    "turns": [
+      {
+        "user": "How much renewable energy was installed in London?",
+        "eval_type": "implied dataset",
+        "top_results": [],
+        "hallucination": [
+          "Solar PV Capacity and Installations",
+          "Renewable Energy Planning Database (REPD)",
+          "Carbon Emissions and Energy Consumption"
+        ],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Renewable Energy Installations #2",
+    "turns": [
+      {
+        "user": "Where was renewable energy mostly installed?",
+        "eval_type": "implied dataset",
+        "top_results": [
+          "London Building Stock Model (LBSM)",
+          "London Heat Map"
+        ],
+        "hallucination": [
+          "London Solar Opportunity Map"
+        ],
+        "result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0.5
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Community Centres #1",
+    "turns": [
+      {
+        "user": "Can I get a list of all community centres in London?",
+        "eval_type": "described dataset",
+        "top_results": [
+          "Cultural Infrastructure Map",
+          "London Datastore Catalogue"
+        ],
+        "hallucination": [
+          "GiGL Open Space Friends Group Subset",
+          "Community Resource Centres",
+          "Open Data Catalogue"
+        ],
+        "result": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 1.5
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Public Toilets #1",
+    "turns": [
+      {
+        "user": "Is there a dataset of public toilet locations?",
+        "eval_type": "described dataset",
+        "top_results": [
+          "Public Toilets",
+          "Cultural Infrastructure Map"
+        ],
+        "hallucination": [
+          "Community Toilet Schemes",
+          "Open Space Amenities",
+          "Borough-Specific Toilet Data"
+        ],
+        "result": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 1.5
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "Public Toilets #2",
+    "turns": [
+      {
+        "user": "Where in London are public toilets located?",
+        "eval_type": "described dataset",
+        "top_results": [
+          "Public Toilets",
+          "TfL Station Facilities",
+          "Cultural Infrastructure Map"
+        ],
+        "hallucination": [
+          "Open Space Amenities",
+          "Community Toilet Schemes"
+        ],
+        "result": {
+          "precision": 0.333,
+          "recall": 0.333,
+          "f1": 0.333,
+          "avg_relevance": 4.0,
+          "ndcg": 1.0,
+          "hallucination_rate": 0.667
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "EBus Routes",
+    "turns": [
+      {
+        "user": "Which route do electric busses drive?",
+        "eval_type": "implied dataset",
+        "top_results": [],
+        "hallucination": [],
+        "result": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0,
+          "avg_relevance": 0,
+          "ndcg": 0.0,
+          "hallucination_rate": 0
+        }
+      },
+      {
+        "user": "Where can I find licensing details for this dataset?",
+        "eval_type": "additional dataset information",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      },
+      {
+        "user": "Can you provide a direct link to the dataset",
+        "eval_type": "source request",
+        "top_results": [],
+        "hallucination": [],
+        "result": "skipped (no ground truth)"
+      }
+    ]
+  },
+  {
+    "baseline_summary": {
+      "hallucination_rate": 2.944,
+      "hallucination_frequency": 0.788
+    }
+  }
+]

@@ -1,0 +1,2072 @@
+[
+    {
+      "conversation_id": "Property Prices #1",
+      "turns": [
+        {
+          "user": "Can you find me a dataset with the average property prices in London?",
+          "eval_type": "described dataset",
+          "keywords": "average house prices",
+          "top_results": [
+            "Monthly Mix-Adjusted Average House Prices, London",
+            "Average House Prices by Borough, Ward, MSOA & LSOA",
+            "Ratio of House Prices to Earnings, Borough",
+            "UK House Price Index",
+            "Registered Social Landlordes Average Rents"
+          ]
+        },
+        {
+          "user": "Where is this dataset hosted? Can you provide a download link?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset include additional details such as property types (flats, houses, etc.)?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Property Prices #2",
+      "turns": [
+        {
+          "user": "How have property prices in London changed over the past 20 years?",
+          "eval_type": "implied dataset",
+          "keywords": "house price trends",
+          "top_results": [
+            "Monthly Mix-Adjusted Average House Prices, London",
+            "UK House Price Index",
+            "Changes of Ownsership by Dwelling Price, Borough",
+            "House Price per Square Metre in England and Wales",
+            "Ratio of House Prices to Earnings, Borough"
+          ]
+        },
+        {
+          "user": "Can you provide direct links to download these datasets?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "Are these datasets updated regularly, and do they include projections for future trends?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Postcode Address Files #1",
+      "turns": [
+        {
+          "user": "Can you provide me with the UK Ordnance Survey Open Names dataset containing all street names and postal codes?",
+          "eval_type": "dataset request",
+          "keywords": "ordnance survey open names",
+          "top_results": [
+            "Ordnance Survey OpenData",
+            "Ordnance Survey Code-Point Open",
+            "OpenStreetMap",
+            "London Learner Survey",
+            "Brent Open Data"
+          ]
+        },
+        {
+          "user": "Can you provide a direct link?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset include historical changes in street names or only the latest data?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Under what license is this dataset published?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Postcode Address Files #2",
+      "turns": [
+        {
+          "user": "Are there publicly available datasets listing all street names and corresponding postal codes in the UK?",
+          "eval_type": "described dataset",
+          "keywords": "postcode directory",
+          "top_results": [
+            "Postcode Directory for London",
+            "Lending by Postcode Sector",
+            "Directory of London Businesses",
+            "Postcodes not on the gas network",
+            "Average House Prices by Borough, Ward, MSOA & LSOA"
+          ]
+        },
+        {
+          "user": "Where can I download an official UK government dataset for postal codes?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "What data formats are available?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset also include alternative names for streets (e.g., historical names)?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Education #1",
+      "turns": [
+        {
+          "user": "Can you provide the Higher Education Statistics Agency (HESA) dataset on university enrollment by gender in the UK from 1946 to 2021?",
+          "eval_type": "dataset request",
+          "keywords": "university enrollment",
+          "top_results": [
+            "Number of International Visitors to London",
+            "Briefing - Universal Credit and Disbaled Londoners",
+            "Monitoring the impact of universal free school meals",
+            "London Business Demography Report",
+            "Application of PAS 2070: London case study"
+          ]
+        },
+        {
+          "user": "This dataset only covers data from 2000 onward. I need historical records from 1946. Can you refine your search?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a link to where I can download the full dataset?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "What licensing restrictions apply to this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Education #2",
+      "turns": [
+        {
+          "user": "Are there datasets tracking the gender ratio of students in universities over time?",
+          "eval_type": "described dataset",
+          "keywords": "university gender ratio",
+          "top_results": [
+            "Deaths and Mortality Ratios, Borough",
+            "LLDC Gender Pay Gap Report",
+            "OPDC Gender Pay Gap Report",
+            "Plot Ratios in Industrial Developments April 2011 - February 2018",
+            "A-Level Results by Gender and Place of Residence, Borough"
+          ]
+        },
+        {
+          "user": "What sources provide this data?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide direct links to datasets that track student gender ratios at UK universities?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "Do these datasets also include dropout rates and retention statistics?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Homelessness #1",
+      "turns": [
+        {
+          "user": "Can you provide me with a dataset of the number of homeless people in the UK between 2010 and 2023?",
+          "eval_type": "dataset request",
+          "keywords": "rough sleeping",
+          "top_results": [
+            "Rough sleeping in London (CHAIN reports)",
+            "GLA Key Performance Indicators",
+            "MPS Dedicated Ward Officer Abstractions and Strengths",
+            "London at night: research and analysis",
+            "Jobs held by EEA-born workers earning less than £30,000 per year"
+          ]
+        },
+        {
+          "user": "This dataset is missing data for the years 2020–2023. Can you refine your search to find a more up-to-date dataset?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a link to the original dataset?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "What is the definition of ‘homeless’ used in this dataset? Could differences in definitions across countries skew the comparison?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Homelessness #2",
+      "turns": [
+        {
+          "user": "Are there any publicly available datasets tracking homelessness trends in UK cities over time?",
+          "eval_type": "described dataset",
+          "keywords": "homelessness trends",
+          "top_results": [
+            "Homelessness Provision, Borough",
+            "Birth trends in London",
+            "Travel Patterns and Trends, London",
+            "Trend-based population projections",
+            "Pay and Inflation Trends in London and the UK, 2010-2022"
+          ]
+        },
+        {
+          "user": "Can you compare the homelessness trends between London, Manchester, and Birmingham?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "This dataset only includes data from London. I need a dataset that includes multiple cities. Can you refine your search?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find government reports or open data portals with nationwide homelessness statistics?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "What is the definition of ‘homeless’ used in this dataset? Does it include rough sleepers, temporary housing, and hidden homelessness?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Food #1",
+      "turns": [
+        {
+          "user": "Can you provide me with the Food Foundation dataset on how much of their food budget people in the UK spend on foods high in salt, sugar, or fat?",
+          "eval_type": "dataset request",
+          "keywords": "food budget",
+          "top_results": [
+            "London Food Strategy Consulation 2018",
+            "Number of take-away food shops and mobile food stands",
+            "LLDC FOI Disclosure Log",
+            "Approved Food Establishments",
+            "London's Food Exports"
+          ]
+        },
+        {
+          "user": "This dataset is outdated. I need data from 2022 or 2023. Can you refine your search to find a more up-to-date version?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Where does this dataset come from? Is it based on government surveys or supermarket sales data?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to this dataset?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset break down spending by household income groups?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "How does the Food Foundation define ‘poorest households’?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Food #2",
+      "turns": [
+        {
+          "user": "Are there publicly available datasets that track how much UK households spend on foods high in salt, sugar, or fat?",
+          "eval_type": "described dataset",
+          "keywords": "household food spend",
+          "top_results": [
+            "High Streets Spend Insights",
+            "Tourism Spend Estimates",
+            "London Food Strategy Consulation 2018",
+            "Health and Social Care Levy - Incidence on London Households",
+            "SmartMeter Energy Consumption Data in London Households"
+          ]
+        },
+        {
+          "user": "Is there any recent data (2022 or 2023) on how much adults spend on these foods, either overall or as a percentage of their budget?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Are there any datasets that explain why people, particularly those in lower-income households, choose foods high in salt, sugar, and fat?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide datasets or surveys that ask people about their reasons for purchasing junk foods?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you give me the link to the 2022 Food Foundation report and the two surveys you cited above?",
+          "eval_type": "link request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Tree Canopy Cover #1",
+      "turns": [
+        {
+          "user": "Is there a publicly available dataset for tree canopy cover in London?",
+          "eval_type": "described dataset",
+          "keywords": "tree canopy cover",
+          "top_results": [
+            "Tree Canopy Cover Prioritisation Tool",
+            "Curio Canopy - London Tree Canopy Cover",
+            "Tree Canopy Cover 2024",
+            "i-Trees Canopy Ward Data",
+            "Coach Parking Locations"
+          ]
+        },
+        {
+          "user": "What license does this dataset have?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Do you have a source for this additional information? ",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Tree Canopy Cover #2",
+      "turns": [
+        {
+          "user": "Can you provide me with the Greater London Authority (GLA) dataset on tree canopy cover in London?",
+          "eval_type": "dataset request",
+          "keywords": "tree canopy tool",
+          "top_results": [
+            "Tree Canopy Cover Prioritisation Tool",
+            "i-Trees Canopy Ward Data",
+            "Curio Canopy - London Tree Canopy Cover",
+            "Tree Canopy Cover 2024",
+            "SuDS Opportunity Mapping Tool"
+          ]
+        },
+        {
+          "user": "This dataset is outdated. Is there a more recent dataset, ideally from 2022 or 2023?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Can I compare this dataset to other cities?",
+          "eval_type": "further context/advice request",
+          "result": "skipped"
+        },
+        {
+          "user": "Who maintains this dataset? Is it collected by satellites, aerial surveys, or local councils?",
+          "eval_type": "further context/advice request",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a link to the dataset?",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Census #1",
+      "turns": [
+        {
+          "user": "Can you access the most recent London census data?",
+          "eval_type": "dataset request",
+          "keywords": "census data",
+          "top_results": [
+            "2011 Census QA Pack",
+            "2021 census lsoa housing",
+            "2011 Census Housing",
+            "2011 Census Heath & Care",
+            "2011 Census Ethnic Group Fact Shets"
+          ]
+        },
+        {
+          "user": "Can you provide me with the summary of the census data for London?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I download the full dataset for London?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "Can I get this data in CSV format?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "How frequently is this dataset updated? Is it the 2021 census or a more recent update?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Census #2",
+      "turns": [
+        {
+          "user": "Can you return the most recent census data?",
+          "eval_type": "described dataset",
+          "keywords": "population backseries",
+          "top_results": [
+            "Modelled population backseries",
+            "GLA Population Projections - Custom Age Tables",
+            "Review of Ethnic Population Data Sources",
+            "Super Output Area Population (LSOA, MSOA), London",
+            "Internet Use by Borough, and Population Sub-Groups"
+          ]
+        },
+        {
+          "user": "Can you provide me with the direct link to download those CSV files?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "Why did you include the links to PDF files even though I only asked for CSVs?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Travel #1",
+      "turns": [
+        {
+          "user": "Can you provide me with the UK Department for Transport dataset on active travel infrastructure?",
+          "eval_type": "dataset request",
+          "keywords": "active travel infrastructure",
+          "top_results": [
+            "Active People Survey KPI Data, Borough",
+            "Physically Active Children",
+            "Physically Active Children, Borough",
+            "Travel Patterns and Trends, London",
+            "Travel to Work by Bicycle, Ward"
+          ]
+        },
+        {
+          "user": "What formats is this dataset available in?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "How frequently is this dataset updated?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset publisher’s page?",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Travel #2",
+      "turns": [
+        {
+          "user": "How does the UK government track active travel infrastructure?",
+          "eval_type": "implied dataset",
+          "keywords": "cycling infrastructure",
+          "top_results": [
+            "Cycling Infrastructure Database",
+            "Walking and Cycling by Borough",
+            "TfL Cycle Hire Locations",
+            "Green Infrastructure Focus Map",
+            "Infrastructure upgrades"
+          ]
+        },
+        {
+          "user": "Where can I find a report summarizing key trends from this dataset? (",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "What organizations contribute to updating this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Universal Credit/Medical #1",
+      "turns": [
+        {
+          "user": "Are there publicly available datasets on antibiotic prescriptions in England?",
+          "eval_type": "described dataset",
+          "result": "skipped (no ground truth)"
+        },
+        {
+          "user": "Which of the datasets you found specifically track NHS prescriptions?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Is this dataset available in a downloadable CSV format?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset publisher’s page?",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Rainfall #1",
+      "turns": [
+        {
+          "user": "Are there publicly available datasets tracking rainfall in London?",
+          "eval_type": "described dataset",
+          "keywords": "rainfall data",
+          "top_results": [
+            "Camden Data",
+            "Daily Areal Rainfall Calculations",
+            "Brent Open Data",
+            "i-Trees Canopy Ward Data",
+            "MPS Stop and Search Dashboard Data"
+          ]
+        },
+        {
+          "user": "Which of these datasets provides high-resolution rainfall data at areal level?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset identify the rainiest area in London?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset?",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Population Trends #1",
+      "turns": [
+        {
+          "user": "Find me a dataset that tracks UK population trends since 1800.",
+          "eval_type": "dataset request",
+          "keywords": "population trends",
+          "top_results": [
+            "Trend-based population projections",
+            "GLA Population Projections - Custom Age Tables",
+            "Review of Ethnic Population Data Sources",
+            "Birth trends in London",
+            "Travel Patterns and Trends, London"
+          ]
+        },
+        {
+          "user": "Does this dataset break population trends down by age group?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can I have a link to this dataset? ",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Population Trends #2",
+      "turns": [
+        {
+          "user": "Are there publicly available datasets tracking UK historical population changes?",
+          "eval_type": "described dataset",
+          "keywords": "population projections",
+          "top_results": [
+            "GLA population projection service",
+            "Population projections documentation",
+            "Employment-led population projections",
+            "Ethnic group population projections",
+            "Housing-led population projections"
+          ]
+        },
+        {
+          "user": "Which datasets allow for time-series analysis of UK population growth?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset provide annual, decadal, or census-based estimates?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Traffic #1",
+      "turns": [
+        {
+          "user": "Can you provide me with a dataset on traffic congestion levels in major UK cities?",
+          "eval_type": "dataset request",
+          "keywords": "traffic congestion",
+          "top_results": [
+            "TfL Live Traffic Disruptions",
+            "Camera Captures and Confirmed Vehicles seen in the Congestion Charge Zone by Month",
+            "TfL Live Traffic Cameras",
+            "Traffic Flows, Borough",
+            "Busiest Airports by Passenger Traffic"
+          ]
+        },
+        {
+          "user": "What metric does this dataset use to define congestion? Journey time, average speed, or something else?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the official metadata and documentation for this dataset?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "What format is this dataset available in?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Traffic #2",
+      "turns": [
+        {
+          "user": "What are the rush hour patterns in the UK?",
+          "eval_type": "implied dataset",
+          "keywords": "rush hour traffic",
+          "top_results": [
+            "TfL Live Traffic Disruptions",
+            "TfL Live Traffic Cameras",
+            "Hours Worked",
+            "Traffic Flows, Borough",
+            "Busiest Airports by Passenger Traffic"
+          ]
+        },
+        {
+          "user": "Does this dataset differentiate between commuter traffic and freight traffic?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "What method does this dataset use to collect traffic data",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Who maintains this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can I have a link to this dataset? ",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Transport Usage #1",
+      "turns": [
+        {
+          "user": "Are there publicly available datasets tracking accessibility in UK public transport systems?",
+          "eval_type": "described dataset",
+          "keywords": "public transport access",
+          "top_results": [
+            "Public Transport Accessibility Levels",
+            "Public Transport Journeys by Type of Transport",
+            "Access to Public Open Space and Nature by Ward",
+            "Police Front Counter Access Times",
+            "Origin and destination of public transport journeys"
+  
+          ]
+        },
+        {
+          "user": "Which datasets provide data on step-free access at train stations?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "How frequently is this dataset updated?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Transport Usage #2",
+      "turns": [
+        {
+          "user": "What is the domestic and international flight traffic like in UK?",
+          "eval_type": "implied dataset",
+          "keywords": "flight traffic",
+          "top_results": [
+            "TfL Live Traffic Disruptions",
+            "TfL Live Traffic Cameras",
+            "Flights and Passengers from London Airports",
+            "Traffic Flows, Borough",
+            "Busiest Airports by Passenger Traffic"
+          ]
+        },
+        {
+          "user": "Does this dataset differentiate between passenger and cargo flights?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the official metadata and documentation for this dataset?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "What format is this dataset available in?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Who collects and maintains this dataset, and how frequently is it updated?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Weather #1",
+      "turns": [
+        {
+          "user": "Can you provide me with a dataset that tracks sunlight and rainfall patterns in the UK?",
+          "eval_type": "described dataset",
+          "keywords": "sunshine rainfall",
+          "top_results": [
+            "Daily Areal Rainfall Calculations",
+            "Cyclic Flows on the TFL Road Network"
+          ]
+        },
+        {
+          "user": "How frequently is this dataset updated?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the link for this dataset?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset provide historical comparisons for past years’ sunlight and rainfall levels?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Weather #2",
+      "turns": [
+        {
+          "user": "Are there publicly available datasets that provide real-time weather data for the UK?",
+          "eval_type": "described dataset",
+          "result": "skipped (no ground truth)"
+        },
+        {
+          "user": "Which of these datasets provide detailed breakdowns on sunshine duration and rainfall patterns?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset provide localized weather data for different UK regions?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset?",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Sports #1",
+      "turns": [
+        {
+          "user": "Are there publicly available datasets tracking trends in UK sports participation?",
+          "eval_type": "described dataset",
+          "keywords": "sports participation",
+          "top_results": [
+            "Sports Participation Rates, Borough",
+            "Participation of Under-Represented Groups in Higher Education",
+            "Major Sports Events Impact Report Polling 2024",
+            "Walking and Cycling by Borough",
+            "Percentage of the working age population in London (aged 16+) participating in education and learning"
+          ]
+        },
+        {
+          "user": "Which of these datasets provides long-term participation trends over the past 10 years?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset rely on survey data, membership statistics, or another method?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset publisher’s page?",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Sports #2",
+      "turns": [
+        {
+          "user": "How has sports participation changed in the UK over the last decade?",
+          "eval_type": "implied dataset",
+          "keywords": "sports trends",
+          "top_results": [
+            "Birth trends in London",
+            "Travel Patterns and Trends, London",
+            "Trend-based population projections",
+            "Pay and Inflation Trends in London and the UK, 2010-2022",
+            "Sports Participation Rates, Borough"
+          ]
+        },
+        {
+          "user": "Does this dataset include reasons why participation is increasing or decreasing?",
+          "eval_type": "dataset request",
+          "result": "skipped (no ground truth)"
+        },
+        {
+          "user": "Does this dataset allow for comparisons between UK regions (e.g., London vs. Scotland)?",
+          "eval_type": "further context/advice request",
+          "result": "skipped"
+        },
+        {
+          "user": "Who publishes this dataset, and what organizations contribute to the data?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Air Quality #1",
+      "turns": [
+        {
+          "user": "Can you find me a dataset that tracks air pollution levels in UK cities?",
+          "eval_type": "dataset request",
+          "keywords": "air pollution",
+          "top_results": [
+            "Analysing Air Pollution Exposure in London",
+            "Understanding Health Impacts of Air Pollution in London",
+            "Modelling the long-term health impacts of air pollution in London",
+            "Noise Pollution in London",
+            "LAEI 2019 - Borough Air Quality Data for LLAQM"
+          ]
+        },
+        {
+          "user": "Does this dataset include specific pollutants such as NO₂, PM10, and PM2.5?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the official metadata and documentation for this dataset?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "What format is this dataset available in?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Who collects and maintains this dataset, and how frequently is it updated?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Air Quality #2",
+      "turns": [
+        {
+          "user": "Are there publicly available datasets that monitor long-term trends in UK air pollution?",
+          "eval_type": "described dataset",
+          "keywords": "air quality trends",
+          "top_results": [
+            "LAEI 2019 - Borough Air Quality Data for LLAQM",
+            "Air Quality Monitoring Sites",
+            "Air quality summary statistics",
+            "London Average Air Quality Levels",
+            "Air Quality Monitoring - Diffusion Tube Results"
+          ]
+        },
+        {
+          "user": "Which of these datasets include air quality forecasts rather than just historical data?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset track seasonal fluctuations in pollution levels?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Where does this dataset source its data from",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Water Quality #1",
+      "turns": [
+        {
+          "user": "How is the water quality of UK Lakes and rivers?",
+          "eval_type": "implied dataset",
+          "keywords": "water quality",
+          "top_results": [
+            "Water Quality of London's Rivers and Other Waterbodies",
+            "LAEI 2019 - Borough Air Quality Data for LLAQM",
+            "Air Quality Monitoring Sites",
+            "Air quality summary statistics",
+            "London Atmospheric Emissions Inventory (LAEI) 2013 Air Quality Focus Areas - December 2016 update"
+          ]
+        },
+        {
+          "user": "Which of these datasets provide water contamination data, such as bacterial counts or chemical pollutants?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "How frequently is this dataset updated?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "What are the licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Water Quality #2",
+      "turns": [
+        {
+          "user": "Are there publicly available datasets on the impact of climate change on UK water quality?",
+          "eval_type": "described dataset",
+          "keywords": "climate change water quality",
+          "top_results": [
+            "Water Quality of London's Rivers and Other Waterbodies",
+            "'Climate Just' data",
+            "LAEI 2019 - Borough Air Quality Data for LLAQM",
+            "Climate Change Mitigation and Energy Strategy Model Data",
+            "Climate Change Mitigation and Energy Annual Report data 2013-14"
+          ]
+        },
+        {
+          "user": "Does this dataset compare pollution levels before and after recent UK flooding events?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset include chemical contamination, such as nitrate levels from farming?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset publisher’s page?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "How frequently is this dataset updated?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Cost of Living #1",
+      "turns": [
+        {
+          "user": "Can you find me a dataset tracking UK inflation rates and cost-of-living changes?",
+          "eval_type": "dataset request",
+          "keywords": "inflation rates",
+          "top_results": [
+            "Business Demographics and Survival Rates, Borough",
+            "Consumer price inflation- Food and non-alcoholic beverages",
+            "Adult reoffending rates",
+            "Breastfeeding rates",
+            "Employment Rates"
+          ]
+        },
+        {
+          "user": "Does this dataset differentiate inflation trends by spending category (e.g., food, housing, energy)?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the official metadata and documentation for this dataset?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "What format is this dataset available in?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Who collects and maintains this dataset",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Cost of Living #2",
+      "turns": [
+        {
+          "user": "Are there publicly available datasets tracking the impact of inflation on household budgets?",
+          "eval_type": "described dataset",
+          "keywords": "cost of living",
+          "top_results": [
+            "GLA cost of living polling",
+            "Impacts of rising cost of living on London",
+            "The rising cost of living and its effects on Londoners",
+            "The Rising Cost of Living and Access to Adult Education in London",
+            "Social Cost Benefit Analysis of the no recourse to public funds (NRPF) policy in London"
+          ]
+        },
+        {
+          "user": "Which datasets provide regional breakdowns of cost-of-living trends in the UK?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset rely on household surveys, retail price indices, or other data sources?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "What licensing restrictions apply to using this dataset for research?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Energy Consumption #1",
+      "turns": [
+        {
+          "user": "How is the energy consumption across different sectors?",
+          "eval_type": "implied dataset",
+          "keywords": "energy consumption",
+          "top_results": [
+            "SmartMeter Energy Consumption Data in London Households",
+            "Total Energy Consumption, Borough",
+            "Road Transport Energy Consumption, Borough",
+            "London Energy and Greenhouse Gas Inventory (LEGGI)",
+            "Photovoltaic (PV) Solar Panel Energy Generation data"
+          ]
+        },
+        {
+          "user": "Does this dataset differentiate between renewable and fossil fuel energy use?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the official metadata and documentation for this dataset?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "What format is this dataset available in?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset track seasonal variations in energy consumption?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Energy Comsumption #2",
+      "turns": [
+        {
+          "user": "Are there publicly available datasets tracking renewable energy production in the UK?",
+          "eval_type": "described dataset",
+          "keywords": "renewable energy",
+          "top_results": [
+            "London Energy and Greenhouse Gas Inventory (LEGGI)",
+            "Photovoltaic (PV) Solar Panel Energy Generation data",
+            "London's Zero Carbon Energy Resource - Secondary Heat",
+            "SmartMeter Energy Consumption Data in London Households",
+            "Solar energy polling"
+          ]
+        },
+        {
+          "user": "Which of these datasets include solar, wind, and hydroelectric energy production?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset provide historical comparisons of renewable energy growth over the last decade?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset publisher’s page?",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Migration #1",
+      "turns": [
+        {
+          "user": "Can you provide me with a dataset tracking immigration trends in the UK?",
+          "eval_type": "dataset request",
+          "keywords": "immigration trends",
+          "top_results": [
+            "Birth trends in London",
+            "Travel Patterns and Trends, London",
+            "Trend-based population projections",
+            "Pay and Inflation Trends in London and the UK, 2010-2022",
+            "Potential Impacts of Skills-based Immigration Policies in London"
+          ]
+        },
+        {
+          "user": "Does this dataset differentiate between work visas, student visas, and asylum seekers?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the official metadata and documentation for this dataset?",
+          "eval_type": "source request",
+          "result": "skipped"
+        },
+        {
+          "user": "What format is this dataset available in?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Migration #2",
+      "turns": [
+        {
+          "user": "Are there publicly available datasets tracking emigration trends from the UK?",
+          "eval_type": "described dataset",
+          "keywords": "emigration trends",
+          "top_results": [
+            "Birth trends in London",
+            "Travel Patterns and Trends, London",
+            "Trend-based population projections",
+            "Pay and Inflation Trends in London and the UK, 2010-2022",
+            "Projection Methodology Intependend Review"
+          ]
+        },
+        {
+          "user": "Which datasets provide historical trends for immigration and emigration over the last 20 years?",
+          "eval_type": "clarification",
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset include nationality, gender, and age breakdowns?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Electric Vechicle Charging#1",
+      "turns": [
+        {
+          "user": "Can I get data on electric vehicle charging points in London?",
+          "eval_type": "described dataset",
+          "keywords": "EV charging",
+          "top_results": [
+            "Events",
+            "Electric Vehicle Charging Site",
+            "MCIL 2 charging area boundaries",
+            "Council Tax Charges - Bands, Borough",
+            "2020-21 AEB Evaluation Final Report"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Electric Vechicle Charging#2",
+      "turns": [
+        {
+          "user": "Where can I charge my electric car?",
+          "eval_type": "implied dataset",
+          "keywords": "electric car charging",
+          "top_results": [
+            "Electric Vehicle Charging Site",
+            "Low Carbon London Electric Vehicle Load Profiles",
+            "Mayor of London & Gnewt Cargo Electric Vehicle Trial",
+            "MCIL 2 charging area boundaries",
+            "Lithium and Electric Vehicle fires"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "London Building Stock Model#1",
+      "turns": [
+        {
+          "user": "How much energy does a building in London require?",
+          "eval_type": "implied dataset",
+          "keywords": "building energy",
+          "top_results": [
+            "Energy Certificates for Public Buildings",
+            "London Building Stock Model (LBSM)",
+            "London Energy and Greenhouse Gas Inventory (LEGGI)",
+            "Photovoltaic (PV) Solar Panel Energy Generation data",
+            "London's Zero Carbon Energy Resource - Secondary Heat"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "London Building Stock Model #2",
+      "turns": [
+        {
+          "user": "I'm looking for a dataset that details the energy performance of London's residential buildings.",
+          "eval_type": "described dataset",
+          "keywords": "energy efficiency",
+          "top_results": [
+            "Domestic Energy Efficiency Ratings, Borough",
+            "London Energy and Greenhouse Gas Inventory (LEGGI)",
+            "Photovoltaic (PV) Solar Panel Energy Generation data",
+            "London's Zero Carbon Energy Resource - Secondary Heat",
+            "SmartMeter Energy Consumption Data in London Households"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Fire Incidents #1",
+      "turns": [
+        {
+          "user": "Can I access data on fire incidents in London?",
+          "eval_type": "described dataset",
+          "keywords": "fire incidents",
+          "top_results": [
+            "Primary fires in schools in London",
+            "London Fire Brigade Incident Records",
+            "London Fire Brigade - Incidents Attended - Summary Report",
+            "Incidents occurring around Diwali, Halloween, Bonfire Night & Christmas from 2012",
+            "Incident response times - Fire Facts"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Fire Incidents #2",
+      "turns": [
+        {
+          "user": "How many fires were there in London?",
+          "eval_type": "implied dataset",
+          "keywords": "fire data",
+          "top_results": [
+            "London Fire Brigade - fleet list",
+            "London Fire Brigade Mobilisation Records",
+            "London Fire Brigade Incident Records",
+            "Fatal fires in Greater London - Fire Facts",
+            "Fires in Greater London - Fire Facts"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Tourism #1",
+      "turns": [
+        {
+          "user": "Can I access datasets for tourism, including predicted visitor numbers in London?",
+          "eval_type": "described dataset",
+          "keywords": "tourism data",
+          "top_results": [
+            "London Tourism Forecasts",
+            "Camden Data",
+            "Tourism Spend Estimates",
+            "Tourism Trips, Borough",
+            "Brent Open Data"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Tourism #2",
+      "turns": [
+        {
+          "user": "How many tourists will come next year to London?",
+          "eval_type": "implied dataset",
+          "keywords": "visitor statistics",
+          "top_results": [
+            "London Visitor Perceptions",
+            "GLA Code of Statistics",
+            "Number of International Visitors to London",
+            "Census 2001 Key Statistics 18: Tenure",
+            "Census 2001 Key Statistics 21: Long Term Illness"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Allotment Locations in London #1",
+      "turns": [
+        {
+          "user": "Where are allotments located in London?",
+          "eval_type": "implied dataset",
+          "keywords": "allotment sites",
+          "top_results": [
+            "Allotment Locations",
+            "London Brownfield Sites Review",
+            "Secondary sites",
+            "Citroen Site - public consultation documents",
+            "Citroen Site Public Inquiry documents"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Allotment Locations in London #2",
+      "turns": [
+        {
+          "user": "Do you have the GiGL Spaces to Visit dataset?",
+          "eval_type": "dataset request",
+          "keywords": "GiGL Spaces to Visit",
+          "top_results": [
+            "GiGL Spaces to Visit",
+            "GiGL Open Space Friends Group subset",
+            "Number of International Visitors to London",
+            "London Visitor Perceptions",
+            "Privately Owned Public Spaces"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Fire Safety #1",
+      "turns": [
+        {
+          "user": "Do you have the fire safety inspections conducted by the London Fire Brigade?",
+          "eval_type": "dataset request",
+          "keywords": "fire safety inspections",
+          "top_results": [
+            "Regulatory fire safety Inspections and audits",
+            "Home Fire Safety Visits by London Borough",
+            "London Fire Brigade - fleet list",
+            "Community Safety Risks",
+            "London Fire Brigade Mobilisation Records"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Fire Safety #2",
+      "turns": [
+        {
+          "user": "I'm looking for a dataset detailing fire safety inspections across London, including inspection dates and outcomes.",
+          "eval_type": "described dataset",
+          "keywords": "home fire safety",
+          "top_results": [
+            "Home Fire Safety Visits by London Borough",
+            "Regulatory fire safety Inspections and audits",
+            "London Fire Brigade - gender, ethnicity and disability pay gap",
+            "London Fire Brigade - fleet list",
+            "Residential starts dashboard"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Solar Energy #1",
+      "turns": [
+        {
+          "user": "I am looking for data on London's solar energy generation.",
+          "eval_type": "described dataset",
+          "keywords": "solar energy",
+          "top_results": [
+            "Solar energy polling",
+            "Photovoltaic (PV) Solar Panel Energy Generation data",
+            "London Energy and Greenhouse Gas Inventory (LEGGI)",
+            "London's Zero Carbon Energy Resource - Secondary Heat",
+            "SmartMeter Energy Consumption Data in London Households"
+        ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Solar Energy #2",
+      "turns": [
+        {
+          "user": "How much solar energy is London using?",
+          "eval_type": "implied dataset",
+          "keywords": "solar power",
+          "top_results": [
+            "Solar energy polling",
+            "Live power cuts",
+            "London power networks vectorisation",
+            "Photovoltaic (PV) Solar Panel Energy Generation data",
+            "Low Carbon Generators"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Electric Consumption #1",
+      "turns": [
+        {
+          "user": "Do you have datasets on electricity usage by borough?",
+          "eval_type": "described dataset",
+          "keywords": "electricity use",
+          "top_results": [
+            "Electricity Consumption, Borough",
+            "The 2014 Internet User Classification (IUC), LSOA",
+            "Electric Vehicle Charging Site",
+            "Lithium and Electric Vehicle fires",
+            "Londoners with more than one job"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Electric Consumption #2",
+      "turns": [
+        {
+          "user": "How much electricity does each borough use?",
+          "eval_type": "implied dataset",
+          "keywords": "electricity data",
+          "top_results": [
+            "Electricity Consumption, Borough",
+            "Camden Data",
+            "Brent Open Data",
+            "i-Trees Canopy Ward Data",
+            "MPS Stop and Search Dashboard Data"
+        ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Smart Meter Energy Usage #1",
+      "turns": [
+        {
+          "user": "Can I access the smart meter energy consumption data for London?",
+          "eval_type": "dataset request",
+          "keywords": "smart meter data",
+          "top_results": [
+            "SmartMeter Energy Consumption Data in London Households",
+            "CLEVER Cities: South Thamesmead Green Space Observation Data",
+            "CLEVER Cities Survey South Thamesmead",
+            "Londons ranking as a leadning smart city",
+            "CLEVER Cities Community Researchers Baseline Report, 2021"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Smart Meter Energy Usage #2",
+      "turns": [
+        {
+          "user": "Can I access data that tells me how much energy each household consumed?",
+          "eval_type": "described dataset",
+          "keywords": "energy smart meters",
+          "top_results": [
+            "SmartMeter Energy Consumption Data in London Households",
+            "CLEVER Cities Survey South Thamesmead",
+            "London Energy and Greenhouse Gas Inventory (LEGGI)",
+            "Londons ranking as a leadning smart city",
+            "CLEVER Cities Community Researchers Baseline Report, 2021"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Job Postings #1",
+      "turns": [
+        {
+          "user": "Do you have the dataset green job postings?",
+          "eval_type": "dataset request",
+          "keywords": "green jobs",
+          "top_results": [
+            "Green Job Postings",
+            "Mini-Jobs in the London Labour Market",
+            "Jobs and Job Density, Borough",
+            "London Job Posting Analytics",
+            "Workforce Jobs"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Job Postings #2",
+      "turns": [
+        {
+          "user": "Are green jobs popular in London?",
+          "eval_type": "implied dataset",
+          "keywords": "job postings",
+          "top_results": [
+            "Green Job Postings",
+            "Online Job Postings Analysis",
+            "London Job Posting Analytics",
+            "Number of job postings in food preparation and hospitality trades",
+            "Jobs and Job Density, Borough"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Waste Dumping #1",
+      "turns": [
+        {
+          "user": "Can I access data on fly-tipping incidents?",
+          "eval_type": "dataset request",
+          "keywords": "fly tipping",
+          "top_results": [
+            "Fly-tipping Incidents",
+            "Flights and Passengers from London Airports",
+            "Busiest Airports by Passenger Traffic",
+            "MyLondon",
+            "a-public-health-approach-to-serious-youth-violence"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Waste Dumping #2",
+      "turns": [
+        {
+          "user": "I am looking for datasets that detail how people illegaly dump waste on the steets",
+          "eval_type": "described dataset",
+          "keywords": "waste management",
+          "top_results": [
+            "Local Authority Collected Waste Management, London",
+            "London Borough of Tower Hamlets Waste Strategy",
+            "London Views Management Framework (LVMF) - Extended background vistas",
+            "Waste Contracts Register",
+            "Waste Re-use Centres"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "London Reservoir Levels #1",
+      "turns": [
+        {
+          "user": "Do you have the dataset named London Reservoir Levels?",
+          "eval_type": "dataset request",
+          "keywords": "reservoir levels",
+          "top_results": [
+            "London Reservoir Levels",
+            "A-Level and Level 3 Point Scores by Gender, Borough",
+            "Public Transport Accessibility Levels",
+            "London Average Air Quality Levels",
+            "A-Level Results by Gender and Place of Residence, Borough"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "London Reservoir Levels #2",
+      "turns": [
+        {
+          "user": "How much water does London have?",
+          "eval_type": "implied dataset",
+          "keywords": "water storage",
+          "top_results": [
+            "Water Quality of London's Rivers and Other Waterbodies",
+            "London Surface Water Strategy",
+            "Isle of Dogs and South Poplar Integrated Water Management Plan",
+            "Application of PAS 2070: London case study",
+            "Land Area and Population Density, Ward and Borough"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Renewable Energy Installations #1",
+      "turns": [
+        {
+          "user": "How much renewable energy was installed in London?",
+          "eval_type": "implied dataset",
+          "keywords": "renewable energy",
+          "top_results": [
+            "London Energy and Greenhouse Gas Inventory (LEGGI)",
+            "Photovoltaic (PV) Solar Panel Energy Generation data",
+            "London's Zero Carbon Energy Resource - Secondary Heat",
+            "SmartMeter Energy Consumption Data in London Households",
+            "Solar energy polling"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Renewable Energy Installations #2",
+      "turns": [
+        {
+          "user": "Where was renewable energy mostly installed?",
+          "eval_type": "implied dataset",
+          "keywords": "solar installations",
+          "top_results": [
+            "Solar energy polling",
+            "Photovoltaic (PV) Solar Panel Energy Generation data",
+            "TfL Station Facilities",
+            "London Underground Average Monthly Temperatures",
+            "Low Carbon Technologies"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Community Centres #1",
+      "turns": [
+        {
+          "user": "Can I get a list of all community centres in London?",
+          "eval_type": "described dataset",
+          "keywords": "community centres",
+          "top_results": [
+            "Map of Community Views",
+            "London Community Response Survey",
+            "Community Life Survey - London summary",
+            "London Adult Community Learning Review Report",
+            "Waste Re-use Centres"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Public Toilets #1",
+      "turns": [
+        {
+          "user": "Is there a dataset of public toilet locations?",
+          "eval_type": "described dataset",
+          "keywords": "public toilets",
+          "top_results": [
+            "Public Toilets",
+            "Thameside West Pubic Consultation documents",
+            "Citroen Site Public Inquiry documents",
+            "New London Plan Examination in Public (EiP) 2019",
+            "a-public-health-approach-to-serious-youth-violence"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Public Toilets #2",
+      "turns": [
+        {
+          "user": "Where in London are public toilets located?",
+          "eval_type": "described dataset",
+          "keywords": "toilet locations",
+          "top_results": [
+            "Public Toilets",
+            "Allotment Locations",
+            "Registered Social Landlordes Average Rents",
+            "TFL Pier Locations",
+            "Coach Parking Locations"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "EBus Routes",
+      "turns": [
+        {
+          "user": "Which route do electric busses drive?",
+          "eval_type": "implied dataset",
+          "keywords": "electric bus routes",
+          "top_results": [
+            "TfL Bus Stop Locations and Routes",
+            "Coach Parking Locations",
+            "Characteristics of Night Bus Users",
+            "Low Emission Bus Zones",
+            "Number of Buses by Type of Bus in London"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "result": "skipped"
+        }
+      ]
+    }
+  ]

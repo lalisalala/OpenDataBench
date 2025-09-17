@@ -1,0 +1,1550 @@
+[
+    {
+      "conversation_id": "Property Prices #1",
+      "turns": [
+        {
+          "user": "Ich suche den Häuserpreisindex von Deutschland",
+          "eval_type": "dataset request",
+          "top_results": [
+            "Häuserpreisindex, Preisindex für Bauland: Deutschland, Jahre"
+          ]
+        },
+        {
+          "user": "Where is this dataset hosted? Can you provide a download link?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset include additional details such as property types (flats, houses, etc.)?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Property Prices #2",
+      "turns": [
+        {
+          "user": "Wie haben sich die Häuserpreise in Deutschland geändert?",
+          "eval_type": "implied dataset",
+          "top_results": [
+            "Häuserpreisindex, Preisindex für Bauland nach Jahren"
+          ],
+          "hallucination": [
+            "Häuserpreisindex nach Quartalen",
+            "Preisindizes für selbst genutztes Wohneigentum nach Jahren",
+            "Preisindizes für selbst genutztes Wohneigentum nach Quartalen",
+            "Preisindizes für Wohnimmobilien nach Kreistypen"
+          ]
+        },
+        {
+          "user": "Can you provide direct links to download these datasets?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Are these datasets updated regularly, and do they include projections for future trends?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Education #1",
+      "turns": [
+        {
+          "user": "Hast du den Datensatz über die Studierenden in Deutschland und ihre Merkmale?",
+          "eval_type": "dataset request",
+          "top_results": [
+            "Studierende nach Hochschularten und Staatsangehörigkeit",
+            "Ausländische Studierende in Deutschland nach Hochschularten und Herkunftsstaaten"
+          ]
+        },
+        {
+          "user": "This dataset only covers data from 2000 onward. I need historical records from 1946. Can you refine your search?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a link to where I can download the full dataset?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "What licensing restrictions apply to this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Education #2",
+      "turns": [
+        {
+          "user": "Gibt es Datensätze die die Geschlechterverteilung auf Universitäten in Deutschland über einen langen Zeitraum beobachten?",
+          "eval_type": "described dataset",
+          "top_results": [
+            "Studierende: Deutschland, Semester, Nationalität,Geschlecht",
+            "Studierende nach Geschlecht, Land des Studienortes und Land des Erwerbs der Hochschulzugangsberechtigung",
+            "Studierende sowie Studienanfängerinnen und Studienanfänger im 1. Hochschulsemester nach Fächergruppen, Hochschularten und Geschlecht",
+            "Studierende nach Geschlecht, Nationalität undFächergruppen - regionale Tiefe: Kreise und krfr. Städte"
+          ]
+        },
+        {
+          "user": "What sources provide this data?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide direct links to datasets that track student gender ratios at UK universities?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Do these datasets also include dropout rates and retention statistics?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Homelessness #1",
+      "turns": [
+        {
+          "user": "Hast du einen Datensatz der Obdachlosigkeit verfolgt?",
+          "eval_type": "dataset request",
+          "top_results": [
+            "Übernachtungs- und Versorgungsangebote für obdachlose und wohnungslose Menschen Hamburg"
+    
+          ]
+        },
+        {
+          "user": "This dataset is missing data for the years 2020–2023. Can you refine your search to find a more up-to-date dataset?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a link to the original dataset?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "What is the definition of ‘homeless’ used in this dataset? Could differences in definitions across countries skew the comparison?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Homelessness #2",
+      "turns": [
+        {
+          "user": "Hast du ein Datenset das die Obdachlosigkeit Trends zeigt?",
+          "eval_type": "described dataset",
+          "top_results": [
+          ]
+        },
+        {
+          "user": "Can you compare the homelessness trends between London, Manchester, and Birmingham?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "This dataset only includes data from London. I need a dataset that includes multiple cities. Can you refine your search?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find government reports or open data portals with nationwide homelessness statistics?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "What is the definition of ‘homeless’ used in this dataset? Does it include rough sleepers, temporary housing, and hidden homelessness?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Tree Canopy Cover #1",
+      "turns": [
+        {
+          "user": "Gibt es Datensätze dazu wie grün Deutschland ist?",
+          "eval_type": "described dataset",
+          "top_results": [
+            "Umrisse der städtischen Grünflächen"
+          ]
+        },
+        {
+          "user": "What license does this dataset have?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Do you have a source for this additional information? ",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Tree Canopy Cover #2",
+      "turns": [
+        {
+          "user": "Wie grün ist Deutschland?",
+          "eval_type": "implied dataset",
+          "top_results": [
+            "GDigitaler Grünplan / Kataster der öffentlichen Grünanlagen",
+            "Parkanlagen"
+          ],
+          "hallucination": [
+            "POI – Grün- und Waldlandschaften",
+            "Öffentlich zugängliche Grünflächen in Dresden (‘MeinGrün’-Projekt)",
+            "Amt für Grünflächen, Umwelt und Nachhaltigkeit – Stadtgrün Gesamtfläche"
+          ]
+        },
+        {
+          "user": "This dataset is outdated. Is there a more recent dataset, ideally from 2022 or 2023?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can I compare this dataset to other cities?",
+          "eval_type": "further context/advice request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Who maintains this dataset? Is it collected by satellites, aerial surveys, or local councils?",
+          "eval_type": "further context/advice request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a link to the dataset?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Rainfall #1",
+      "turns": [
+        {
+          "user": "Hast du einen Datensatz über die Niederschlagsrate in Deutschland?",
+          "eval_type": "described dataset",
+          "top_results": [
+            "Raster der Monatssumme des Niederschlags in mm für Deutschland - HYRAS-DE-PRE",
+            "Niederschlagsmessnetz",
+            "Wetterdaten - täglich (MD1) 1934ff.: Dresden-Klotzsche, Temperatur, Druck, Niederschlag, Sonnenscheindauer",
+            "10-minütige Stationsmessungen des Niederschlag-gefallen-Indikators für Deutschland"
+          ],
+          "hallucination": [
+            "Messstelle Neustadt/Oberfranken – Niederschlag und Schneehöhe (CSV)"
+          ]
+        },
+        {
+          "user": "Which of these datasets provides high-resolution rainfall data at areal level?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset identify the rainiest area in London?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Population Trends #1",
+      "turns": [
+        {
+          "user": "Ich suche ein Datensatz der die Bevölkerungsentwicklung in Deutschland verfolgt.",
+          "eval_type": "dataset request",
+          "top_results": [
+            "Bevölkerung in Deutschland nach Alter und Geschlecht",
+            "Durchschnittliche Bevölkerung: Deutschland, Jahre,Nationalität, Geschlecht, Altersjahre",
+            "Geborenen- (+) bzw. Gestorbenenüberschuss (-) in Barnitz"
+          ],
+          "hallucination": [
+            "Bevölkerungsstand nach Altersgruppen – Beispiel Osdorf (kommunal)",
+            "Einwohnerentwicklung (Hauptwohnsitz) in Konstanz ab 1975"
+          ]
+          
+        },
+        {
+          "user": "Does this dataset break population trends down by age group?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can I have a link to this dataset? ",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Population Trends #2",
+      "turns": [
+        {
+          "user": "Wie hat sich Deutschland's Bevölkerung entwickelt über die Jahre?",
+          "eval_type": "described dataset",
+          "top_results": [
+            "Bevölkerung in Deutschland nach Altersgruppen ab 1871",
+            "Durchschnittliche Bevölkerung: Deutschland, Jahre,Nationalität, Geschlecht, Altersjahre",
+            "Entwicklung der Einwohnerzahl",
+            "Bevölkerung nach Altersgruppen (14)und Geschlecht - Land - Jahr",
+            "Vorausberechnung: Bevölkerung, Varianten, Geschlecht,Altersgruppen (6) - Raumkategorien(Gebietsstand 01.01.23) - Jahre"
+          ]
+        },
+        {
+          "user": "Which datasets allow for time-series analysis of UK population growth?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset provide annual, decadal, or census-based estimates?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Traffic #1",
+      "turns": [
+        {
+          "user": "Hast du Datensätze zu Stau und Staubilanz in Schleswig-Holstein? ",
+          "eval_type": "dataset request",
+          "top_results": [
+            "Staubilanz Schleswig-Holstein 2023",
+            "Staubilanz Schleswig-Holstein 2021"
+          ]
+        },
+        {
+          "user": "What metric does this dataset use to define congestion? Journey time, average speed, or something else?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the official metadata and documentation for this dataset?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "What format is this dataset available in?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Traffic #2",
+      "turns": [
+        {
+          "user": "Wie ist die Verkehrslage auf Autobahnen in Hamburg?",
+          "eval_type": "implied dataset",
+          "top_results": [
+            "Verkehrslage auf Autobahnen (Schleifen) Hamburg",
+            "Verkehrsmengen auf Hauptverkehrsstraßen in Hamburg",
+            "Verkehrszählstellen Hamburg",
+            "Autobahnkilometrierung Hamburg",
+            "Bedarfsumleitungen Hamburg"
+          ]
+        },
+        {
+          "user": "Does this dataset differentiate between commuter traffic and freight traffic?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "What method does this dataset use to collect traffic data",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Who maintains this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can I have a link to this dataset? ",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Transport Usage #1",
+      "turns": [
+        {
+          "user": "Gibt es Datensätze die die Barrierefreiheit in Nahverkehr in Baden Württemberg tracken?",
+          "eval_type": "described dataset",
+          "top_results": [
+            "Barrierefreiheit an Haltestellen (ÖPNV) Baden-Württemberg",
+            "Barrierefreiheit an Bahnhöfen (SPNV) und Bushaltestellen (ÖPNV)"
+          ]
+        },
+        {
+          "user": "Which datasets provide data on step-free access at train stations?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "How frequently is this dataset updated?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Transport Usage #2",
+      "turns": [
+        {
+          "user": "Wie ist der Luftverkehr in Deutschland",
+          "eval_type": "implied dataset",
+          "top_results": [
+            "Statistik Anzahl der vom Luftfahrt-Bundesamt genehmigten deutschen Fluggesellschaften",
+            "Versand von Gütern (Luftverkehr): Deutschland, Monate(bis 2010), Herkunftsflughafen, Zielland",
+            "Kartenlayer Flugverkehr, 24h-Pegel LDEN"
+          ],
+          "hallucination": [
+            "Luftverkehr (Jahreszahlen) – Flughafen Leipzig-Halle"
+          ]
+        },
+        {
+          "user": "Does this dataset differentiate between passenger and cargo flights?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the official metadata and documentation for this dataset?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "What format is this dataset available in?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Who collects and maintains this dataset, and how frequently is it updated?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Accidents #1",
+      "turns": [
+        {
+          "user": "Wo finde ich Daten zu Straßenverkehrsunfällen in Berlin?",
+          "eval_type": "described dataset",
+          "top_results": [
+            "Straßenverkehrsunfälle mit Personenschaden: Bundesländer,Jahre, Straßenklasse, Ortslage"
+          ],
+          "hallucination": [
+            "Straßenverkehrsunfälle nach Unfallort in Berlin 2020",
+            "Straßenverkehrsunfälle nach Unfallort in Berlin 2021",
+            "Straßenverkehrsunfälle nach Unfallort in Berlin 2019",
+            "Straßenverkehrsunfälle nach Unfallort in Berlin 2018"
+          ]
+        },
+        {
+          "user": "How frequently is this dataset updated?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the link for this dataset?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset provide historical comparisons for past years’ sunlight and rainfall levels?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Accidents #2",
+      "turns": [
+        {
+          "user": "Gibt es Datensätze die Verkehrsunfälle im Raum Bremen verfolgen?",
+          "eval_type": "described dataset",
+          "top_results": [
+          ],
+          "hallucination": [
+            "Straßenverkehrsunfälle im Land Bremen (Monatlicher Statistischer Bericht)"
+          ]
+        },
+        {
+          "user": "Which of these datasets provide detailed breakdowns on sunshine duration and rainfall patterns?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset provide localized weather data for different UK regions?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Air Quality #1",
+      "turns": [
+        {
+          "user": "Kannst du mir Datensätze zeigen die die Luftqualität tracken?",
+          "eval_type": "dataset request",
+          "top_results": [
+            "Luftqualitätsdaten (Datenstrom E2a) - Unvalidierte Einzelwerte und Monatswerte (Datensatz)",
+            "Luftqualitätsdaten (Datenstrom G) - Erreichung der Umweltziele 2018 (Datensatz)",
+            "Luftqualitätsdaten (Datenstrom G) – Erreichung der Umweltziele 2021"
+          ],
+          "hallucination": [
+            "Luftqualität (Klimaanalyse)",
+            "Luftqualitätsüberwachungsmessnetz (LUQS) – Messverfahren mit Laboranalytik"
+          ]
+        },
+        {
+          "user": "Does this dataset include specific pollutants such as NO₂, PM10, and PM2.5?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the official metadata and documentation for this dataset?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "What format is this dataset available in?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Who collects and maintains this dataset, and how frequently is it updated?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Air Quality #2",
+      "turns": [
+        {
+          "user": "Gibt es Datensätze die die Luftqualität in Deutschland messen über einen längeren Zeitraum?",
+          "eval_type": "described dataset",
+          "top_results": [
+            "Luftgütedaten in Potsdam",
+            "Luftqualitätsdaten (Datenstrom E1b) – modellierte und geschätzte Einzelwerte 2017",
+            "Luftqualitätsdaten (Datenstrom B) – Beurteilungsgebiete 2016"
+          ],
+          "hallucination": [
+            "Hamburger Luftmessnetz (HaLm)"
+          ]
+        },
+        {
+          "user": "Which of these datasets include air quality forecasts rather than just historical data?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset track seasonal fluctuations in pollution levels?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Where does this dataset source its data from",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Water Quality #1",
+      "turns": [
+        {
+          "user": "Wie ist die Wasser Qualität von deutschen Seen und Flüssen?",
+          "eval_type": "implied dataset",
+          "top_results": [
+            "Gewässerkundliche Messdaten",
+            "Wasserschutzgebiete-DE"
+          ]
+        },
+        {
+          "user": "Which of these datasets provide water contamination data, such as bacterial counts or chemical pollutants?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "How frequently is this dataset updated?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "What are the licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Water Quality #2",
+      "turns": [
+        {
+          "user": "Gibt es Daten dazu wie sich die Wasserqualität aufgrund des Klimawandels verändert?",
+          "eval_type": "described dataset",
+          "top_results": [
+            "Gewässerkundliche Messdaten"
+          ],
+          "hallucination": [
+            "Wasserschutzgebiete-DE"
+          ]
+        },
+        {
+          "user": "Does this dataset compare pollution levels before and after recent UK flooding events?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset include chemical contamination, such as nitrate levels from farming?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset publisher’s page?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "How frequently is this dataset updated?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Cost of Living #1",
+      "turns": [
+        {
+          "user": "Findest du einen datensatz der die Inflation sowie die Lebenskosten anzeigt?",
+          "eval_type": "dataset request",
+          "top_results": [
+            "Verbraucherpreisindex, Gesamtindex",
+            "Harmonisierter Verbraucherpreisindex: Deutschland, Monate, Europäische Klassifikation der Verwendungszwecke des Individualkonsums (ECOICOP 2-/3-/4-/5-Steller/Sonderpositionen)",
+            "Verbraucherpreise im Land Bremen"
+          ],
+          "hallucination": [
+            "Verbraucherpreisindex: Deutschland, Jahre, Klassifikation ECOICOP (Langzeitdaten)"
+          ]
+        },
+        {
+          "user": "Does this dataset differentiate inflation trends by spending category (e.g., food, housing, energy)?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the official metadata and documentation for this dataset?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "What format is this dataset available in?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Who collects and maintains this dataset",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Cost of Living #2",
+      "turns": [
+        {
+          "user": "Ich suche Datensätze die die Inflation beschreiben.",
+          "eval_type": "described dataset",
+          "top_results": [
+            "VVerbraucherpreisindex, Gesamtindex",
+            "Harmonisierter Verbraucherpreisindex: Deutschland, Jahre, Europäische Klassifikation der Verwendungszwecke des Individualkonsums (ECOICOP 2-/3-/4-/5-Steller/Sonderpositionen)"
+          ],
+          "hallucination": [
+            "Verbraucherpreisindex: Wägungsanteil, Veränderung zum Vorjahresmonat, Verwendungszwecke des Individualkonsums",
+            "Verbraucherpreisindex Schleswig-Holstein (Juli 2025)"
+          ]
+        },
+        {
+          "user": "Which datasets provide regional breakdowns of cost-of-living trends in the UK?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset rely on household surveys, retail price indices, or other data sources?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "What licensing restrictions apply to using this dataset for research?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Energy Consumption #1",
+      "turns": [
+        {
+          "user": "How is the energy consumption across different sectors?",
+          "eval_type": "implied dataset",
+          "top_results": [
+            "Energieverbräuche (Umweltatlas)",
+            "Energieverbrauchsübersicht der bezirklichen Abnahmestellen 2023",
+            "Energieverbrauch nach Energieträge (2003 - 2022)"
+          ],
+          "hallucination": [
+            "Energiebilanz und CO₂-Bilanz Nordrhein-Westfalen",
+            "Energieindikatoren: Energieproduktivität, Energieintensität, Energieverbrauch je Einwohner"
+          ]
+        },
+        {
+          "user": "Does this dataset differentiate between renewable and fossil fuel energy use?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the official metadata and documentation for this dataset?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "What format is this dataset available in?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset track seasonal variations in energy consumption?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Energy Comsumption #2",
+      "turns": [
+        {
+          "user": "Gibt es öffentlich zugängliche Datensätze, die die Produktion erneuerbarer Energien verfolgen in Köln?",
+          "eval_type": "described dataset",
+          "top_results": [
+          ]
+        },
+        {
+          "user": "Which of these datasets include solar, wind, and hydroelectric energy production?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset provide historical comparisons of renewable energy growth over the last decade?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset publisher’s page?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Migration #1",
+      "turns": [
+        {
+          "user": "Hast du Daten die die Migration in NRW verfolgen?",
+          "eval_type": "dataset request",
+          "top_results": [
+            "Armutsrisikoquoten in NRW nach Geschlecht und Migrationsstatus",
+            "Unterbringungszahlen von Flüchtlingen in Düsseldorf seit 2012",
+            "Integrationsmonitoring NRW"
+          ],
+          "hallucination": [
+            "Sprachprüfungen im Rahmen der Integrationskurse (A2‑B1) in NRW und Deutschland",
+            "Standorte der Jugendmigrationsdienste in NRW"
+          ]
+        },
+        {
+          "user": "Does this dataset differentiate between work visas, student visas, and asylum seekers?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find the official metadata and documentation for this dataset?",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "What format is this dataset available in?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Migration #2",
+      "turns": [
+        {
+          "user": "Gibt es Datensätze die Migration in Berlin tracken?",
+          "eval_type": "described dataset",
+          "top_results": [
+          ]
+        },
+        {
+          "user": "Which datasets provide historical trends for immigration and emigration over the last 20 years?",
+          "eval_type": "clarification",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Does this dataset include nationality, gender, and age breakdowns?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Electric Vehicle Charging#1",
+      "turns": [
+        {
+          "user": "Wo kann man sein E-Auto aufladen in Deutschland?",
+          "eval_type": "implied dataset",
+          "top_results": [
+            "Liste der Ladesäulen",
+            "OBELISöffentlich: Stamm- und Betriebsdaten geförderter öffentlich zugänglicher Ladestationen für Elektrofahrzeuge",
+            "Deutschland: E-Ladesäulen",
+            "E-Tankstellen Standorte - Projekt NOX-Block"
+          ],
+          "hallucination":[
+            "Gebündelte Daten E‑Ladesäulen Baden-Württemberg"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Building Stock Model #1",
+      "turns": [
+        {
+          "user": "Wie viel Energie braucht ein Gebäude in Deutschland?",
+          "eval_type": "implied dataset",
+          "top_results": [
+            "Energieverbrauchsübersicht bezirklicher Gebäude 2017"
+          ],
+          "hallucination":[
+            "Wärmebedarf – 100 m‑Rastermodell",
+            "Monatlicher Stromverbrauch eines Bundesgebäudes"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Building Stock Model #2",
+      "turns": [
+        {
+          "user": "Ich suche nach einem Datensatz, der die Energieeffizienz von Wohngebäuden detailliert darstellt.",
+          "eval_type": "described dataset",
+          "top_results": [
+          ],
+          "hallucination": [
+            "Repräsentative Befragung privater Haushalte zur Umsetzung von Energieeffizienzmaßnahmen"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Fire Incidents #1",
+      "turns": [
+        {
+          "user": "Kann ich auf Daten über Brandvorfälle in Düsseldorf zugreifen?",
+          "eval_type": "described dataset",
+          "top_results": [
+          ],
+          "hallucination": [
+            "Brandeinsätze der Feuerwehr Düsseldorf seit 2015",
+            "Personenschäden bei Bränden der Feuerwehr Düsseldorf seit 2015",
+            "Einsätze im Krankentransport der Feuerwehr Düsseldorf nach Einsatzart",
+            "Technische Hilfeleistungen der Feuerwehr Düsseldorf seit 2015",
+            "Einsätze der Feuer- und Rettungswachen der Feuerwehr Düsseldorf seit 2015"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Fire Incidents #2",
+      "turns": [
+        {
+          "user": "Wie viele Brandfälle gab es in Berlin?",
+          "eval_type": "implied dataset",
+          "top_results": [
+          ],
+          "hallucination":[
+            "Einsatzgeschehen der Berliner Feuerwehr"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Tourism #1",
+      "turns": [
+        {
+          "user": "Kann ich auf Datensätze zum Thema Tourismus, einschließlich prognostizierter Besucherzahlen in München, zugreifen?",
+          "eval_type": "described dataset",
+          "top_results": [
+          ],
+          "hallucination": [
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Tourism #2",
+      "turns": [
+        {
+          "user": "Wie viel Touristen sind nächstes Jahr in Berlin?",
+          "eval_type": "implied dataset",
+          "top_results": [
+          ],
+          "hallucination":[
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Allotment Locations #1",
+      "turns": [
+        {
+          "user": "Wo befinden sich Kleingärten in Wuppertal?",
+          "eval_type": "implied dataset",
+          "top_results": [
+            "Kleingartenanlagen Wuppertal"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Allotment Locations #2",
+      "turns": [
+        {
+          "user": "Hast du den Kleingartenanlagen Wuppertal Datensatz?",
+          "eval_type": "dataset request",
+          "top_results": [
+            "Kleingartenanlagen Wuppertal"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Fire Safety #1",
+      "turns": [
+        {
+          "user": "Hast du Daten zu Brandschutzinspektionen in NRW?",
+          "eval_type": "dataset request",
+          "top_results": [],
+          "hallucination":[
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Fire Safety #2",
+      "turns": [
+        {
+          "user": "Ich suche Daten von Brandschutzinspektionen in Berlin und deren Ergebnisse.",
+          "eval_type": "described dataset",
+          "top_results": [
+          ],
+          "hallucination": [
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Solar Energy #1",
+      "turns": [
+        {
+          "user": "Ich suche nach Daten zu Solarenergie in Hamburg.",
+          "eval_type": "described dataset",
+          "top_results": [],
+          "hallucination":[
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Solar Energy #2",
+      "turns": [
+        {
+          "user": "Wieviel Solar Energie benutzt Bayern?",
+          "eval_type": "implied dataset",
+          "top_results": [
+            "Sonnenscheindauer im Juli",
+            "Praxisbeispiele – Photovoltaik im Energie‑Atlas Bayern"
+
+          ],
+          "hallucination":[
+            "Stromerzeugung aus erneuerbaren Energien (Energie-Atlas Bayern)",
+            "Standorte von Windenergieanlagen in Bayern"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Electric Consumption #1",
+      "turns": [
+        {
+          "user": "Hast du Daten zu Stromverbrauch pro Region?",
+          "eval_type": "described dataset",
+          "top_results": [
+            "Stromverbrauch Entsorgungsbetriebe Konstanz",
+            "Wärmekataster Stromverbrauch Hamburg"
+          ],
+          "hallucination": [
+            "Stromverbrauch – Leitungsgebunden nach Regionen"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Electric Consumption #2",
+      "turns": [
+        {
+          "user": "Wie viel Strom verbraucht Deutschland?",
+          "eval_type": "implied dataset",
+          "top_results": [
+            "Stromverbrauch seit 1990"
+          ]
+    
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Job Postings #1",
+      "turns": [
+        {
+          "user": "Gibt es Daten zu Jobausschreibungen in Bayern?",
+          "eval_type": "dataset request",
+          "top_results": [
+            ""
+          ],
+          "hallucination":[
+            ""
+          ]
+        },
+  
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Job Postings #2",
+      "turns": [
+        {
+          "user": "Welche Jobs werden in Bayern gesucht?",
+          "eval_type": "implied dataset",
+          "top_results": [
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Reservoir Levels #1",
+      "turns": [
+        {
+          "user": "Hast du Hamburgs Wasserhaushalt Daten?",
+          "eval_type": "dataset request",
+          "top_results": [
+            "Referenzwerte naturnaher Wasserhaushalt Hamburg",
+            "WRRL Grundlagendaten Hamburg"
+          ],
+          "hallucination":[
+            "Wasserhaushalt Hamburg"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Reservoir Levels #2",
+      "turns": [
+        {
+          "user": "Wie viel Wasser hat Hamburg?",
+          "eval_type": "implied dataset",
+          "top_results": [
+
+          ],
+          "hallucination":[
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Renewable Energy Installations #1",
+      "turns": [
+        {
+          "user": "Wie viel erneuerbare Energien hat Sachsen installiert?",
+          "eval_type": "implied dataset",
+          "top_results": [
+            "Erneuerbare Energien: Anlagen, installierte Anlagen-Leistung, Bruttostromerzeugung, Energieträger - Sachsen- Jahre"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Renewable Energy Installations #2",
+      "turns": [
+        {
+          "user": "Wie viel erneuerbare Energien hat Nordrhein-Westfalen installiert?",
+          "eval_type": "implied dataset",
+          "top_results": [
+          ],
+          "hallucination":[
+            "Erneuerbare Energien: Anlagen, installierte Anlagen-Leistung, Bruttostromerzeugung, Energieträger – Nordrhein-Westfalen (Jahre)"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Public Toilets #1",
+      "turns": [
+        {
+          "user": "Wo sind die öffentlichen Toiletten in Berlin?",
+          "eval_type": "implied dataset",
+          "top_results": [
+            "Öffentliche Toiletten"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    },
+    {
+      "conversation_id": "Public Toilets #2",
+      "turns": [
+        {
+          "user": "Wo finde ich öffentliche Toiletten in Köln?",
+          "eval_type": "described dataset",
+          "top_results": [
+            "Öffentliche Toiletten"
+          ]
+        },
+        {
+          "user": "Where can I find licensing details for this dataset?",
+          "eval_type": "additional dataset information",
+          "top_results": [],
+          "result": "skipped"
+        },
+        {
+          "user": "Can you provide a direct link to the dataset",
+          "eval_type": "source request",
+          "top_results": [],
+          "result": "skipped"
+        }
+      ]
+    }
+  ]
