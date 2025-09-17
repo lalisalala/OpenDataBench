@@ -11,11 +11,21 @@ It provides curated evaluation datasets, baseline results, evaluation scripts, a
   - **London Datastore (LDS)** — English, municipal-scale.  
   - **GovData.de** — German, national-scale.  
 
-- **Baselines**  
-  - Native portal keyword search.  
-  - Aggregated search on [data.europa.eu](https://data.europa.eu/).  
-  - LLM-based retrieval (ChatGPT, Gemini, DeepSeek).  
-  - Our proposed system **OpenDORA** (RAG-based).  
+## Baselines
+
+The benchmark currently includes the following **baselines** for comparison:
+
+- **Native portal search** — keyword-based search using the portals’ own CKAN interfaces:  
+  - [London Datastore](https://data.london.gov.uk/) (English, municipal-scale)  
+  - [GovData.de](https://www.govdata.de/) (German, national-scale)  
+
+- **[data.europa.eu](https://data.europa.eu/)** — an aggregator portal that federates datasets from national and municipal portals, including LDS and GovData.  
+
+- **ChatGPT-5.0** — instructed to return datasets specifically from the target portal.  
+
+- **Gemini 2.5 Flash** — same setup as ChatGPT.  
+
+- **DeepSeek 3.1** — search-enabled, restricted to the target portal by prompting.  
 
 - **Ground truth annotations**  
   - 118 natural language queries.  
