@@ -34,7 +34,7 @@ It provides curated evaluation datasets, baseline results, evaluation scripts, a
 ---
 
 ## 📂 Repository Structure
-
+```
 OpenDataBench/
 │
 ├── data/ # Evaluation datasets (GovData, LDS)
@@ -61,7 +61,7 @@ OpenDataBench/
 │ └── LDS/
 │
 └── README.md # (this file)
-
+```
 
 ---
 
